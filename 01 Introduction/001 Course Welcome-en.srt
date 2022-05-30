@@ -1,0 +1,112 @@
+1
+00:00:00,000 --> 00:00:04,233
+Hello, I'm Jason Taylor. Welcome to this comprehensive course
+
+2
+00:00:04,233 --> 00:00:07,933
+on Git source control with the Git Hub hosting service.
+
+3
+00:00:07,933 --> 00:00:11,066
+This course is specifically designed to quickly cover
+
+4
+00:00:11,066 --> 00:00:15,100
+the most important concepts in Git, and then focus on GitHub
+
+5
+00:00:15,100 --> 00:00:18,866
+as our remote repository and Git hosting service.
+
+6
+00:00:18,866 --> 00:00:21,666
+We will cover many other aspects of GitHub,
+
+7
+00:00:21,666 --> 00:00:27,600
+like issue tracking and sharing code with gists. So, let's get started.
+
+8
+00:00:27,600 --> 00:00:32,166
+By the end of this course you should have a solid understanding and command of Git
+
+9
+00:00:32,166 --> 00:00:36,533
+and how to use the GitHub hosting service along with its many features.
+
+10
+00:00:36,533 --> 00:00:40,733
+To make that happen, we'll start off with the core concepts related to Git.
+
+11
+00:00:40,733 --> 00:00:44,533
+I provide a quick install section that covers the accelerated
+
+12
+00:00:44,533 --> 00:00:48,633
+version of my install process for Windows and Mac systems.
+
+13
+00:00:48,633 --> 00:00:53,266
+If you prefer something more in depth, I have a complete, step by step process
+
+14
+00:00:53,266 --> 00:00:57,166
+in the corresponding bonus section near the end of this course.
+
+15
+00:00:57,166 --> 00:01:01,633
+I also provide written instructions for those that prefer that approach.
+
+16
+00:01:01,633 --> 00:01:05,833
+Once we have an understanding of Git, and installed all the required tools,
+
+17
+00:01:05,833 --> 00:01:09,100
+we can dive right into the foundational Git commands.
+
+18
+00:01:09,100 --> 00:01:13,366
+As we master the basics, you'll learn how to create your first Git project,
+
+19
+00:01:13,366 --> 00:01:18,200
+make and save changes, and all the standard operations a developer would need.
+
+20
+00:01:18,200 --> 00:01:23,200
+After conquering the fundamentals of Git, we will dive into some more advanced topics,
+
+21
+00:01:23,200 --> 00:01:27,900
+like comparing, branching, merging, and even a bit of time travel.
+
+22
+00:01:27,900 --> 00:01:33,333
+We dive into the many features of GitHub for the remainder and the majority of this course.
+
+23
+00:01:33,333 --> 00:01:37,000
+That includes using GitHub as our remote repository,
+
+24
+00:01:37,000 --> 00:01:39,566
+repository management directly on GitHub,
+
+25
+00:01:39,566 --> 00:01:43,700
+and how to join other projects on GitHub and contribute back to them.
+
+26
+00:01:43,700 --> 00:01:48,466
+After covering the main aspects of GitHub we will look at some of the other features,
+
+27
+00:01:48,466 --> 00:01:53,066
+like sharing code with gists, tracking defects with GitHub issues,
+
+28
+00:01:53,066 --> 00:01:58,866
+and grouping related repositories together in organizations.
+

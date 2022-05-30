@@ -1,0 +1,148 @@
+1
+00:00:00,000 --> 00:00:04,666
+Este curso  direcionado a engenheiros de software, desenvolvedores, web designers
+
+2
+00:00:04,666 --> 00:00:09,000
+e profissionais criativos que so novos no Git e no GitHub.
+
+3
+00:00:09,000 --> 00:00:12,366
+Vou cobrir mais algumas informaes bsicas na seo de bnus,
+
+4
+00:00:12,366 --> 00:00:16,900
+a fim de manter as coisas fluindo. Este curso  focado principalmente no GitHub;
+
+5
+00:00:16,900 --> 00:00:20,400
+Este curso  um timo acompanhamento para qualquer curso focado no
+
+6
+00:00:20,400 --> 00:00:23,066
+Git, mas no abrangeu o GitHub em nenhum detalhe.
+
+7
+00:00:23,066 --> 00:00:27,133
+Este curso ser um pouco mais rpido do que os meus outros cursos no Git,
+
+8
+00:00:27,133 --> 00:00:29,300
+e eu suponho que voc se sentir confortvel
+
+9
+00:00:29,300 --> 00:00:33,666
+com a linha de comando ou o ambiente do terminal; Eu cobrirei porque um pouco depois.
+
+10
+00:00:33,666 --> 00:00:40,100
+Se voc preferir algo mais lento, ou mais profundo, confira meus outros cursos no Git.
+
+11
+00:00:40,100 --> 00:00:44,000
+Este curso foi projetado para atrair uma grande variedade de estudantes
+
+12
+00:00:44,000 --> 00:00:48,833
+com diferentes estilos de aprendizagem; Eu tenho uma coisinha para todos neste curso.
+
+13
+00:00:48,833 --> 00:00:54,533
+Nem tudo vai agradar a todos, mas espero que essa variedade seja bem recebida.
+
+14
+00:00:54,533 --> 00:00:58,066
+Sinta-se  vontade para pular o contedo que no  seu estilo.
+
+15
+00:00:58,066 --> 00:01:01,000
+A introduo e os principais conceitos deste curso
+
+16
+00:01:01,000 --> 00:01:04,400
+contm principalmente slides e ilustraes com narrao; Eu descobri
+
+17
+00:01:04,400 --> 00:01:08,233
+que esta  a melhor maneira de introduzir teoria e conceitos.
+
+18
+00:01:08,233 --> 00:01:11,866
+Depois disso, slides e ilustraes so mantidos no mnimo.
+
+19
+00:01:11,866 --> 00:01:16,333
+A maioria deste curso  na verdade demonstraes passo-a-passo, com voc
+
+20
+00:01:16,333 --> 00:01:21,400
+assistindo a minha tela em ao. Esses vdeos so curtos e diretos; Eu s
+
+21
+00:01:21,400 --> 00:01:25,300
+tento cobrir um, ou um punhado de conceitos, em cada um, o
+
+22
+00:01:25,300 --> 00:01:28,300
+que mantm os vdeos focados e o curso fluindo.
+
+23
+00:01:28,300 --> 00:01:31,466
+Essa abordagem tambm permite que voc pule diretamente para os
+
+24
+00:01:31,466 --> 00:01:36,400
+vdeos e os tpicos de maior interesse. no entanto, este curso  amplamente progressivo, o
+
+25
+00:01:36,400 --> 00:01:39,233
+que significa que eu construo sobre conceitos anteriores.
+
+26
+00:01:39,233 --> 00:01:42,833
+Depois da seo de conceitos bsicos, vou apresentar algumas teorias quando
+
+27
+00:01:42,833 --> 00:01:45,833
+necessrio, talvez como um lembrete de algo que abordamos antes.
+
+28
+00:01:45,833 --> 00:01:48,500
+Voc precisar acompanhar o mximo possvel; voc
+
+29
+00:01:48,500 --> 00:01:52,300
+no aprender muito com este curso se apenas observar passivamente.
+
+30
+00:01:52,300 --> 00:01:55,800
+Use uma segunda tela, talvez um tablet, para assistir a esse curso
+
+31
+00:01:55,800 --> 00:02:00,066
+enquanto digita os mesmos comandos em seu sistema. Pause os vdeos, se necessrio.
+
+32
+00:02:00,066 --> 00:02:04,766
+No avance para o prximo vdeo ou conceito at dominar o atual.
+
+33
+00:02:04,766 --> 00:02:08,533
+Alm disso, este curso ser atualizado e melhorado ao longo do
+
+34
+00:02:08,533 --> 00:02:12,800
+tempo; Eu pretendo adicionar mais sees, dicas e truques, questionrios e projetos
+
+35
+00:02:12,800 --> 00:02:15,866
+de exerccios em um futuro prximo, ento volte sempre.
+
+36
+00:02:15,866 --> 00:02:21,100
+Finalmente, voc no est sozinho; Eu apoio totalmente meus
+
+37
+00:02:21,100 --> 00:02:27,833
+cursos via mensagens diretas e discusses. Encorajo meus alunos a ajudarem uns aos outros tambm.
+

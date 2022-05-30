@@ -1,0 +1,124 @@
+1
+00:00:00,000 --> 00:00:03,100
+Como mencionei anteriormente, usaremos muito a linha
+
+2
+00:00:03,100 --> 00:00:07,366
+de comando durante este curso. Tambm usaremos outras formas, como ferramentas grficas
+
+3
+00:00:07,366 --> 00:00:11,500
+e a interface da Web por meio do navegador da Web, mas a
+
+4
+00:00:11,500 --> 00:00:14,766
+primeira parte deste curso ser centrada na linha de comando.
+
+5
+00:00:14,766 --> 00:00:19,400
+Voc pode se perguntar por que, e talvez at pense que a linha de comando  um passo para trs.
+
+6
+00:00:19,400 --> 00:00:25,000
+Eu compreendo totalmente; a linha de comando parece um pouco datada. No entanto, para o Git, inicio a
+
+7
+00:00:25,000 --> 00:00:29,533
+maioria dos meus cursos com a linha de comando pelos seguintes motivos.
+
+8
+00:00:29,533 --> 00:00:33,700
+Primeiro, h um histrico forte com a linha de comando com o Git.
+
+9
+00:00:33,700 --> 00:00:38,500
+Foi originalmente concebido como uma ferramenta de linha de comando; clientes grficos vieram depois.
+
+10
+00:00:38,500 --> 00:00:41,866
+Como resultado, os novos recursos chegam na linha de
+
+11
+00:00:41,866 --> 00:00:45,333
+comando bem antes de serem integrados em um cliente grfico.
+
+12
+00:00:45,333 --> 00:00:49,366
+Para mim, uma das razes mais convincentes  a ajuda online.
+
+13
+00:00:49,366 --> 00:00:54,633
+Quase toda a assistncia on-line, sites, blogs e outros tutoriais usam a linha
+
+14
+00:00:54,633 --> 00:01:00,400
+de comando como a forma padro de comunicar como algo  feito com o Git.
+
+15
+00:01:00,400 --> 00:01:05,633
+Existem dezenas de clientes grficos, mas todos tm todos os mesmos comandos no
+
+16
+00:01:05,633 --> 00:01:11,033
+Git, com apenas algumas poucas excees. Se voc no acredita em mim, basta fazer uma pesquisa online.
+
+17
+00:01:11,033 --> 00:01:15,233
+Alm disso, a linha de comando tem mais poder; a maioria dos
+
+18
+00:01:15,233 --> 00:01:20,833
+clientes grficos implementa apenas os comandos principais ou comuns, mas deixa de fora algumas opes muito poderosas.
+
+19
+00:01:20,833 --> 00:01:24,833
+Apenas a linha de comando fornece toda a potncia bruta do Git.
+
+20
+00:01:24,833 --> 00:01:28,800
+Assim como o argumento on-line, a linha de comando permite que
+
+21
+00:01:28,800 --> 00:01:34,566
+um conjunto comum de comandos no Git funcione no Windows, no Mac OS e at no Linux.
+
+22
+00:01:34,566 --> 00:01:39,833
+Vou apontar quaisquer comandos, no Git ou de outra forma, que sejam exclusivos de uma plataforma.
+
+23
+00:01:39,833 --> 00:01:44,100
+Alm disso, por algum motivo, a linha de comando est retornando
+
+24
+00:01:44,100 --> 00:01:47,900
+em popularidade com novas ferramentas de desenvolvimento com foco na
+
+25
+00:01:47,900 --> 00:01:53,633
+interface de linha de comando, como Ruby on Rails, Grails, Maven, NodeJS e muitos outros.
+
+26
+00:01:53,633 --> 00:01:58,333
+Acredite ou no, ficar confortvel com o terminal  o melhor interesse de sua carreira.
+
+27
+00:01:58,333 --> 00:02:01,133
+Eu no tenho grandes problemas com clientes grficos; Depois
+
+28
+00:02:01,133 --> 00:02:05,833
+de entender como o Git funciona, voc pode usar qualquer cliente grfico sobre ele.
+
+29
+00:02:05,833 --> 00:02:09,833
+H muitas opes, incluindo excelentes integraes IDE, e eu
+
+30
+00:02:09,833 --> 00:02:15,300
+uso muitas delas no meu trabalho de desenvolvimento dirio, junto com meu terminal.
+
+31
+00:02:15,300 --> 00:02:21,800
+Aprenda Git atravs da linha de comando primeiro, e depois adicione as ferramentas grficas mais tarde.
+

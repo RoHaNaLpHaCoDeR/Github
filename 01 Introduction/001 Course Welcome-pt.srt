@@ -1,0 +1,112 @@
+1
+00:00:00,000 --> 00:00:04,233
+Ol, sou Jason Taylor. Bem-vindo a este curso abrangente sobre controle
+
+2
+00:00:04,233 --> 00:00:07,933
+de origem do Git com o servio de hospedagem do Git Hub.
+
+3
+00:00:07,933 --> 00:00:11,066
+Este curso  projetado especificamente para cobrir rapidamente
+
+4
+00:00:11,066 --> 00:00:15,100
+os conceitos mais importantes do Git e, em seguida, focar no
+
+5
+00:00:15,100 --> 00:00:18,866
+GitHub como nosso repositrio remoto e servio de hospedagem Git.
+
+6
+00:00:18,866 --> 00:00:21,666
+Abordaremos muitos outros aspectos do GitHub, como rastreamento
+
+7
+00:00:21,666 --> 00:00:27,600
+de problemas e compartilhamento de cdigo com gists. Ento vamos comear.
+
+8
+00:00:27,600 --> 00:00:32,166
+No final deste curso, voc deve ter uma slida compreenso e comando do Git
+
+9
+00:00:32,166 --> 00:00:36,533
+e como usar o servio de hospedagem do GitHub juntamente com seus diversos recursos.
+
+10
+00:00:36,533 --> 00:00:40,733
+Para que isso acontea, vamos comear com os principais conceitos relacionados ao Git.
+
+11
+00:00:40,733 --> 00:00:44,533
+Eu forneo uma seo de instalao rpida que cobre a verso
+
+12
+00:00:44,533 --> 00:00:48,633
+acelerada do meu processo de instalao para sistemas Windows e Mac.
+
+13
+00:00:48,633 --> 00:00:53,266
+Se voc preferir algo mais profundo, eu tenho um processo completo, passo
+
+14
+00:00:53,266 --> 00:00:57,166
+a passo, na seo bnus correspondente, perto do final deste curso.
+
+15
+00:00:57,166 --> 00:01:01,633
+Eu tambm forneo instrues escritas para aqueles que preferem essa abordagem.
+
+16
+00:01:01,633 --> 00:01:05,833
+Uma vez que tenhamos uma compreenso do Git e instalamos todas as
+
+17
+00:01:05,833 --> 00:01:09,100
+ferramentas necessrias, podemos mergulhar diretamente nos comandos do Git.
+
+18
+00:01:09,100 --> 00:01:13,366
+ medida que dominamos o bsico, voc aprender como criar seu primeiro projeto
+
+19
+00:01:13,366 --> 00:01:18,200
+Git, fazer e salvar alteraes e todas as operaes padro que um desenvolvedor precisaria.
+
+20
+00:01:18,200 --> 00:01:23,200
+Depois de conquistar os fundamentos do Git, vamos nos aprofundar em alguns tpicos mais
+
+21
+00:01:23,200 --> 00:01:27,900
+avanados, como comparar, ramificar, mesclar e at mesmo um pouco de viagem no tempo.
+
+22
+00:01:27,900 --> 00:01:33,333
+Ns mergulhamos nos muitos recursos do GitHub para o restante e a maior parte deste curso.
+
+23
+00:01:33,333 --> 00:01:37,000
+Isso inclui usar o GitHub como nosso repositrio remoto, gerenciamento
+
+24
+00:01:37,000 --> 00:01:39,566
+de repositrio diretamente no GitHub e como
+
+25
+00:01:39,566 --> 00:01:43,700
+unir outros projetos no GitHub e contribuir de volta para eles.
+
+26
+00:01:43,700 --> 00:01:48,466
+Depois de abordar os principais aspectos do GitHub, veremos
+
+27
+00:01:48,466 --> 00:01:53,066
+alguns dos outros recursos, como compartilhar cdigo com gists,
+
+28
+00:01:53,066 --> 00:01:58,866
+rastrear defeitos com problemas do GitHub e agrupar repositrios relacionados nas organizaes.
+

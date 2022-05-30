@@ -1,0 +1,148 @@
+1
+00:00:00,000 --> 00:00:04,666
+This course is target at software engineers, developers, web designers,
+
+2
+00:00:04,666 --> 00:00:09,000
+and creative professionals that are new to Git and GitHub.
+
+3
+00:00:09,000 --> 00:00:12,366
+I will cover some more background information in the bonus section,
+
+4
+00:00:12,366 --> 00:00:16,900
+in order to keep things flowing. This course is mainly focused on GitHub;
+
+5
+00:00:16,900 --> 00:00:20,400
+this course is a great follow up to any course focused on Git,
+
+6
+00:00:20,400 --> 00:00:23,066
+but didn't cover GitHub in any great detail.
+
+7
+00:00:23,066 --> 00:00:27,133
+This course is going to be a bit faster paced than my other courses on Git,
+
+8
+00:00:27,133 --> 00:00:29,300
+and I assume that you're going to be comfortable with the
+
+9
+00:00:29,300 --> 00:00:33,666
+command line or terminal environment; I'll cover why a bit later.
+
+10
+00:00:33,666 --> 00:00:40,100
+If you prefer something slower-paced, or more in-depth, check out my other courses on Git.
+
+11
+00:00:40,100 --> 00:00:44,000
+This course has been designed to appeal to a wide variety of students
+
+12
+00:00:44,000 --> 00:00:48,833
+with different learning styles; I have a little something for everyone in this course.
+
+13
+00:00:48,833 --> 00:00:54,533
+Not everything will appeal to everyone, but I do hope this variety will be well received.
+
+14
+00:00:54,533 --> 00:00:58,066
+Feel free to skip over content that just isn't your style.
+
+15
+00:00:58,066 --> 00:01:01,000
+The introduction and core concepts of this course
+
+16
+00:01:01,000 --> 00:01:04,400
+contain mainly slides and illustrations with narration;
+
+17
+00:01:04,400 --> 00:01:08,233
+I have found this to be the best way to introduce theory and concepts.
+
+18
+00:01:08,233 --> 00:01:11,866
+After that, slides and illustrations are kept to a minimum.
+
+19
+00:01:11,866 --> 00:01:16,333
+The majority of this course is actually hands-on, step-by-step demonstrations,
+
+20
+00:01:16,333 --> 00:01:21,400
+with you watching my screen in action. These videos are short and to the point;
+
+21
+00:01:21,400 --> 00:01:25,300
+I only try to cover one, or a handful of concepts, in each one,
+
+22
+00:01:25,300 --> 00:01:28,300
+which keeps the videos focused, and the course flowing.
+
+23
+00:01:28,300 --> 00:01:31,466
+That approach also allows you to jump directly to the videos
+
+24
+00:01:31,466 --> 00:01:36,400
+and topics you are most interested in; however, this course is largely progressive,
+
+25
+00:01:36,400 --> 00:01:39,233
+which means I build upon prior concepts.
+
+26
+00:01:39,233 --> 00:01:42,833
+After the core concepts section, I'll drop in some theory when needed,
+
+27
+00:01:42,833 --> 00:01:45,833
+perhaps as a reminder of something we covered before.
+
+28
+00:01:45,833 --> 00:01:48,500
+You will need to follow along as much as possible;
+
+29
+00:01:48,500 --> 00:01:52,300
+you won't learn much from this course if you just passively watch.
+
+30
+00:01:52,300 --> 00:01:55,800
+Use a second screen, perhaps a tablet, to watch this course
+
+31
+00:01:55,800 --> 00:02:00,066
+while typing the same commands on your system. Pause the videos if needed.
+
+32
+00:02:00,066 --> 00:02:04,766
+Don't advance to the next video or concept, until you have mastered the current one.
+
+33
+00:02:04,766 --> 00:02:08,533
+Also, this course will be updated and improved over time;
+
+34
+00:02:08,533 --> 00:02:12,800
+I plan to add more sections, tips and tricks, quizzes, and exercise projects
+
+35
+00:02:12,800 --> 00:02:15,866
+in the near future, so check back often.
+
+36
+00:02:15,866 --> 00:02:21,100
+Finally, you are not alone; I fully support my courses via direct messages,
+
+37
+00:02:21,100 --> 00:02:27,833
+and the discussions. I encourage my students to help each other out as well.
+

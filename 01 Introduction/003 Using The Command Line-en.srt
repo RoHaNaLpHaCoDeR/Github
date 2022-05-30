@@ -1,0 +1,124 @@
+1
+00:00:00,000 --> 00:00:03,100
+As I have mentioned before, we will be using the command line
+
+2
+00:00:03,100 --> 00:00:07,366
+a great deal during this course. We will use other ways too,
+
+3
+00:00:07,366 --> 00:00:11,500
+like graphical tools and the web interface via the web browser,
+
+4
+00:00:11,500 --> 00:00:14,766
+but the early part of this course will be command line centric.
+
+5
+00:00:14,766 --> 00:00:19,400
+You might wonder why, and perhaps even think the command line is a step backwards.
+
+6
+00:00:19,400 --> 00:00:25,000
+I totally understand; the command line does feel a bit dated. However, for Git,
+
+7
+00:00:25,000 --> 00:00:29,533
+I start most of my courses with the command line for the following reasons.
+
+8
+00:00:29,533 --> 00:00:33,700
+First, there is a strong history with the command line with Git.
+
+9
+00:00:33,700 --> 00:00:38,500
+It was originally designed as a command line tool; graphical clients came later.
+
+10
+00:00:38,500 --> 00:00:41,866
+As a result, new features make it onto the command line
+
+11
+00:00:41,866 --> 00:00:45,333
+well before they are integrated into a graphical client.
+
+12
+00:00:45,333 --> 00:00:49,366
+For me, one of the most compelling reasons is online help.
+
+13
+00:00:49,366 --> 00:00:54,633
+Nearly all online assistance, websites, blogs, and other tutorials,
+
+14
+00:00:54,633 --> 00:01:00,400
+use the command line as the standard way of communicating how something is done with Git.
+
+15
+00:01:00,400 --> 00:01:05,633
+There are dozens of graphical clients, but everyone has all the same commands in Git,
+
+16
+00:01:05,633 --> 00:01:11,033
+with only a few fringe exceptions. If you don't believe me, just do an online search.
+
+17
+00:01:11,033 --> 00:01:15,233
+Also, the command line has more power; most graphical clients
+
+18
+00:01:15,233 --> 00:01:20,833
+only implement the core or common commands, but leave off some very powerful options.
+
+19
+00:01:20,833 --> 00:01:24,833
+Only the command line provides all the raw power of Git.
+
+20
+00:01:24,833 --> 00:01:28,800
+Much like the online argument, going command line allows me one
+
+21
+00:01:28,800 --> 00:01:34,566
+common set of commands in Git to work on Windows, Mac OS, and even Linux.
+
+22
+00:01:34,566 --> 00:01:39,833
+I will point out any commands, in Git or otherwise, that are unique to a platform.
+
+23
+00:01:39,833 --> 00:01:44,100
+Also, for some reason, the command line is returning in popularity
+
+24
+00:01:44,100 --> 00:01:47,900
+with new development tools focusing on the command line interface
+
+25
+00:01:47,900 --> 00:01:53,633
+like Ruby on Rails, Grails, Maven, NodeJS, and many others.
+
+26
+00:01:53,633 --> 00:01:58,333
+Believe it or not, getting cozy with the terminal is in your career's best interest.
+
+27
+00:01:58,333 --> 00:02:01,133
+I don't have any major issues with graphical clients;
+
+28
+00:02:01,133 --> 00:02:05,833
+once you understand how Git works, you can use whatever graphical clients on top of it.
+
+29
+00:02:05,833 --> 00:02:09,833
+There are many options, including excellent IDE integrations,
+
+30
+00:02:09,833 --> 00:02:15,300
+and I do use many of them on my daily development work, along with my terminal.
+
+31
+00:02:15,300 --> 00:02:21,800
+Learn Git via the command line first, and then add the graphical tools later.
+
