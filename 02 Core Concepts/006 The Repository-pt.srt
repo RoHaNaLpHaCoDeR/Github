@@ -1,0 +1,60 @@
+1
+00:00:00,000 --> 00:00:03,900
+Dentro do Git, a coleo de arquivos controlados por verso sendo
+
+2
+00:00:03,900 --> 00:00:06,766
+gerenciados e seu histrico,  considerado o repositrio.
+
+3
+00:00:06,766 --> 00:00:12,600
+Embora normalmente pensemos na coleo de arquivos e pastas sendo gerenciados como o repositrio, na verdade,
+
+4
+00:00:12,600 --> 00:00:15,800
+a pasta abrangente no sistema de arquivos  considerada
+
+5
+00:00:15,800 --> 00:00:18,866
+o diretrio de trabalho ou o espao de trabalho.
+
+6
+00:00:18,866 --> 00:00:22,900
+A rea de trabalho pode conter os arquivos gerenciados pelo Git e
+
+7
+00:00:22,900 --> 00:00:28,200
+outros arquivos e pastas sendo excludos do controle de verso ou ainda no gerenciados pelo Git.
+
+8
+00:00:28,200 --> 00:00:34,133
+Normalmente, dentro da pasta raiz do espao de trabalho do seu projeto, haver um ". git "pasta que contm o
+
+9
+00:00:34,133 --> 00:00:39,133
+repositrio Git real; o". git "folder contm sua prpria
+
+10
+00:00:39,133 --> 00:00:44,433
+coleo de arquivos e pastas que compem a estrutura interna do repositrio.
+
+11
+00:00:44,433 --> 00:00:49,766
+Como os repositrios contm todo o histrico de todos os arquivos dentro do
+
+12
+00:00:49,766 --> 00:00:54,700
+repositrio, recomendo que voc mantenha seus repositrios Git o mais focados possvel.
+
+13
+00:00:54,700 --> 00:00:59,566
+Por exemplo, um aplicativo pode ter um repositrio Git para o front
+
+14
+00:00:59,566 --> 00:01:04,700
+end e outro para o backend. No mnimo, cada aplicativo deve estar
+
+15
+00:01:04,700 --> 00:01:10,633
+em seu prprio repositrio e no ser compartilhado com outros aplicativos, se possvel.
+

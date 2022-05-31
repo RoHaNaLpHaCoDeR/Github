@@ -1,0 +1,60 @@
+1
+00:00:00,000 --> 00:00:03,900
+Within Git, the collection of version controlled files being managed,
+
+2
+00:00:03,900 --> 00:00:06,766
+and their history, is considered the repository.
+
+3
+00:00:06,766 --> 00:00:12,600
+While we typically think of the collection of files and folders being managed as the repository,
+
+4
+00:00:12,600 --> 00:00:15,800
+actually, the encompassing folder on the file system
+
+5
+00:00:15,800 --> 00:00:18,866
+is considered the working directory or workspace.
+
+6
+00:00:18,866 --> 00:00:22,900
+The workspace can contain both files managed by Git and
+
+7
+00:00:22,900 --> 00:00:28,200
+other files and folders being excluded from version control, or not yet managed by Git.
+
+8
+00:00:28,200 --> 00:00:34,133
+Normally, within the root folder of the workspace for your project, there will be a ".git" folder
+
+9
+00:00:34,133 --> 00:00:39,133
+that contains the actual Git repository; the ".git" folder contains it's
+
+10
+00:00:39,133 --> 00:00:44,433
+own collection of files and folders that make up the internal structure of the repository.
+
+11
+00:00:44,433 --> 00:00:49,766
+Since repositories contain all the history of all the files within the repository,
+
+12
+00:00:49,766 --> 00:00:54,700
+I recommend you keep your Git repositories as narrowly focused as possible.
+
+13
+00:00:54,700 --> 00:00:59,566
+For example, an application might have a Git repository for the front end,
+
+14
+00:00:59,566 --> 00:01:04,700
+and another one for the back end. At the very least, each application should be in it's
+
+15
+00:01:04,700 --> 00:01:10,633
+own repository and not shared with other applications if possible.
+

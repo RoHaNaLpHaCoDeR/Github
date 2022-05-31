@@ -1,0 +1,44 @@
+1
+00:00:00,000 --> 00:00:06,500
+Git works by saving the current state of all its files it manages into snapshots called commits;
+
+2
+00:00:06,500 --> 00:00:10,133
+a commit can contain one or many file changes.
+
+3
+00:00:10,133 --> 00:00:14,466
+It's important to note that Git versions files, not folders.
+
+4
+00:00:14,466 --> 00:00:18,166
+Occasionally, you might need to work with a technology that requires
+
+5
+00:00:18,166 --> 00:00:22,500
+certain folders to exist, regardless of if there are any files there;
+
+6
+00:00:22,500 --> 00:00:28,000
+if you need to, you can create empty dummy files to force Git to preserve the folder.
+
+7
+00:00:28,000 --> 00:00:32,766
+As you make changes, commits are saved onto the timeline, known as a branch.
+
+8
+00:00:32,766 --> 00:00:36,566
+A Git repository will normally have at least one branch,
+
+9
+00:00:36,566 --> 00:00:39,866
+and, by default, that branch is called Master;
+
+10
+00:00:39,866 --> 00:00:43,833
+additional branches can be created but I will cover that later.
+
+11
+00:00:43,833 --> 00:00:50,000
+For now, our initial work will be done upon the master branch.
+

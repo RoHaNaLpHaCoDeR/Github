@@ -1,0 +1,80 @@
+1
+00:00:00,000 --> 00:00:05,000
+O Git  um sistema de controle de verso descentralizado ou distribudo.
+
+2
+00:00:05,000 --> 00:00:10,100
+Enquanto o Git  descentralizado, a maioria das pessoas ainda opta por usar um servidor
+
+3
+00:00:10,100 --> 00:00:13,866
+central para servir como repositrio principal de um projeto ou equipe.
+
+4
+00:00:13,866 --> 00:00:17,566
+Por causa da natureza distribuda, o Git pode escalar massivamente.
+
+5
+00:00:17,566 --> 00:00:23,133
+Por exemplo, o criador do Git, Linus Torvalds, queria criar um sistema de controle de verso
+
+6
+00:00:23,133 --> 00:00:28,000
+que pudesse lidar com os requisitos do projeto Linux Kernel, que ele tambm criou.
+
+7
+00:00:28,000 --> 00:00:33,266
+Hoje, o projeto Linux Kernel contm mais de 15 milhes de linhas de cdigo, com mais de
+
+8
+00:00:33,266 --> 00:00:38,733
+mil e duzentos desenvolvedores em todo o mundo contribuindo para o projeto em dezenas de filiais ativas.
+
+9
+00:00:38,733 --> 00:00:43,866
+Outro benefcio de ser distribudo  que a maioria das operaes no Git  local;
+
+10
+00:00:43,866 --> 00:00:47,333
+Existem apenas alguns comandos que requerem uma conexo de rede.
+
+11
+00:00:47,333 --> 00:00:50,000
+Caso contrrio, voc pode trabalhar completamente desconectado,
+
+12
+00:00:50,000 --> 00:00:53,866
+mesmo comparando comparaes e comprometendo-se completamente fora da rede.
+
+13
+00:00:53,866 --> 00:00:59,166
+Como a maioria das operaes  local, o Git  muito rpido para essas mesmas operaes.
+
+14
+00:00:59,166 --> 00:01:04,033
+O Git  gratuito e de cdigo aberto, o que tambm contribui para sua popularidade.
+
+15
+00:01:04,033 --> 00:01:08,866
+O Git tem uma comunidade muito ativa e existem muitos recursos disponveis online.
+
+16
+00:01:08,866 --> 00:01:14,066
+Alm disso,  muito fcil encontrar desenvolvedores que j tenham experincia com o Git.
+
+17
+00:01:14,066 --> 00:01:19,200
+Por causa de todos esses fatores, o Git se tornou o sistema de controle de verso mais popular.
+
+18
+00:01:19,200 --> 00:01:24,566
+O status padro de fato do Git significa que o Git desfruta de ampla
+
+19
+00:01:24,566 --> 00:01:29,500
+adoo e integrao em outras ferramentas usadas pela comunidade de desenvolvimento de software.
+
+20
+00:01:29,500 --> 00:01:36,300
+Incluindo editores de texto, sistemas de rastreamento de bugs e servidores de compilao.
+

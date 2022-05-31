@@ -1,0 +1,28 @@
+1
+00:00:00,000 --> 00:00:05,566
+Bem-vindo, nesta seo, abordaremos os conceitos fundamentais sobre como o Git funciona, a
+
+2
+00:00:05,566 --> 00:00:09,633
+terminologia chave e tambm algumas informaes sobre o GitHub.
+
+3
+00:00:09,633 --> 00:00:12,400
+Eu cobrirei informaes adicionais sobre o Git e o
+
+4
+00:00:12,400 --> 00:00:15,300
+GitHub em uma seo bnus para manter as coisas fluindo.
+
+5
+00:00:15,300 --> 00:00:20,100
+Para aqueles que j entendem como o Git funciona, voc pode pular esta seo.
+
+6
+00:00:20,100 --> 00:00:24,233
+No entanto, eu recomendo aos menos familiarizados que passem
+
+7
+00:00:24,233 --> 00:00:29,466
+por esta seo antes de prosseguir para as sees deste curso.
+

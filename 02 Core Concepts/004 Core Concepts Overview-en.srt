@@ -1,0 +1,28 @@
+1
+00:00:00,000 --> 00:00:05,566
+Welcome, in this section, we will cover the foundational concepts about how Git works,
+
+2
+00:00:05,566 --> 00:00:09,633
+key terminology, and also some information about GitHub.
+
+3
+00:00:09,633 --> 00:00:12,400
+I will cover additional information about Git and GitHub
+
+4
+00:00:12,400 --> 00:00:15,300
+in a bonus section in order to keep things flowing.
+
+5
+00:00:15,300 --> 00:00:20,100
+For those that already understand how Git works, you can skip this section.
+
+6
+00:00:20,100 --> 00:00:24,233
+However, I recommend those less familiar go through this section
+
+7
+00:00:24,233 --> 00:00:29,466
+before proceeding to the hands on sections of this course.
+

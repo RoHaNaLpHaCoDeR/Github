@@ -1,0 +1,64 @@
+1
+00:00:00,000 --> 00:00:05,033
+GitHub is a Git repository hosting service provided by GitHub Inc.
+
+2
+00:00:05,033 --> 00:00:11,366
+Like Bitbucket, GitHub also provides an on-premises hosting solution called GitHub enterprise;
+
+3
+00:00:11,366 --> 00:00:16,200
+however, I'll be discussing the public GitHub available from "github.com".
+
+4
+00:00:16,200 --> 00:00:21,500
+GitHub has grown to be the most popular Git repository hosting service online.
+
+5
+00:00:21,500 --> 00:00:26,800
+It has the strongest feature set of the online Git hosting services that I've reviewed recently,
+
+6
+00:00:26,800 --> 00:00:30,800
+making it an easy choice for any developers using Git.
+
+7
+00:00:30,800 --> 00:00:36,833
+GitHub's main claim to fame is the unlimited free repositories for public repositories.
+
+8
+00:00:36,833 --> 00:00:40,733
+That means that, as long as you don't mind others being able to look at your code,
+
+9
+00:00:40,733 --> 00:00:43,500
+you can have as many repositories as you want;
+
+10
+00:00:43,500 --> 00:00:49,000
+at the moment you want a private repository, you will have to upgrade to a paid service.
+
+11
+00:00:49,000 --> 00:00:53,366
+Because of this, most of the open source community has adopted GitHub
+
+12
+00:00:53,366 --> 00:00:58,900
+as their main repository; even the source code for Git itself is hosted on GitHub.
+
+13
+00:00:58,900 --> 00:01:04,300
+GitHub also boasts many additional features, like issue tracking, web pages,
+
+14
+00:01:04,300 --> 00:01:09,600
+and source code snippet sharing to support developer projects hosted on the service.
+
+15
+00:01:09,600 --> 00:01:14,400
+All in all, GitHub provides a compelling service that developers can grow with.
+
+16
+00:01:14,400 --> 00:01:17,833
+Let's get started now.
+

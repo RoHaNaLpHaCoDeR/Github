@@ -1,0 +1,64 @@
+1
+00:00:00,000 --> 00:00:05,033
+O GitHub  um servio de hospedagem de repositrio Git fornecido pela GitHub Inc.
+
+2
+00:00:05,033 --> 00:00:11,366
+Como o Bitbucket, o GitHub tambm fornece uma soluo de hospedagem local chamada GitHub enterprise; no entanto, estarei
+
+3
+00:00:11,366 --> 00:00:16,200
+discutindo o GitHub pblico disponvel no "github". com ".
+
+4
+00:00:16,200 --> 00:00:21,500
+O GitHub tornou-se o mais popular servio de hospedagem de repositrio Git online.
+
+5
+00:00:21,500 --> 00:00:26,800
+Ele possui o conjunto de recursos mais forte dos servios de hospedagem Git on-line que eu revisei
+
+6
+00:00:26,800 --> 00:00:30,800
+recentemente, tornando-o uma escolha fcil para qualquer desenvolvedor que use o Git.
+
+7
+00:00:30,800 --> 00:00:36,833
+A principal reivindicao do GitHub para a fama so os repositrios gratuitos e ilimitados para repositrios pblicos.
+
+8
+00:00:36,833 --> 00:00:40,733
+Isso significa que, desde que voc no se importe de que os outros
+
+9
+00:00:40,733 --> 00:00:43,500
+possam ver seu cdigo, voc pode ter quantos repositrios
+
+10
+00:00:43,500 --> 00:00:49,000
+desejar; No momento em que voc quer um repositrio privado, voc ter que atualizar para um servio pago.
+
+11
+00:00:49,000 --> 00:00:53,366
+Por causa disso, a maioria da comunidade de cdigo aberto adotou o
+
+12
+00:00:53,366 --> 00:00:58,900
+GitHub como seu repositrio principal; at mesmo o cdigo-fonte do prprio Git est hospedado no GitHub.
+
+13
+00:00:58,900 --> 00:01:04,300
+O GitHub tambm possui muitos recursos adicionais, como rastreamento de problemas, pginas da Web e
+
+14
+00:01:04,300 --> 00:01:09,600
+compartilhamento de fragmento de cdigo-fonte para dar suporte a projetos de desenvolvedores hospedados no servio.
+
+15
+00:01:09,600 --> 00:01:14,400
+Tudo somado, o GitHub fornece um servio atraente com o qual os desenvolvedores podem crescer.
+
+16
+00:01:14,400 --> 00:01:17,833
+Vamos comear agora.
+

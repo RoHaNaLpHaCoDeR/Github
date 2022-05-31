@@ -1,0 +1,80 @@
+1
+00:00:00,000 --> 00:00:05,000
+Git is a decentralized or distributed version control system.
+
+2
+00:00:05,000 --> 00:00:10,100
+While Git is decentralized, most people still choose to use a central server
+
+3
+00:00:10,100 --> 00:00:13,866
+to serve as the main repository for a project or team.
+
+4
+00:00:13,866 --> 00:00:17,566
+Because of the distributed nature, Git can scale massively.
+
+5
+00:00:17,566 --> 00:00:23,133
+For example, the creator of Git, Linus Torvalds, wanted to create a version control system
+
+6
+00:00:23,133 --> 00:00:28,000
+that could handle the requirements of the Linux Kernel project, which he also created.
+
+7
+00:00:28,000 --> 00:00:33,266
+Today, the Linux Kernel project contains over 15 Million lines of code, with over
+
+8
+00:00:33,266 --> 00:00:38,733
+twelve hundred worldwide developers contributing to the project in dozens of active branches.
+
+9
+00:00:38,733 --> 00:00:43,866
+Another benefit of being distributed, is that most operations in Git are local;
+
+10
+00:00:43,866 --> 00:00:47,333
+there are only a few commands that require a Network connection.
+
+11
+00:00:47,333 --> 00:00:50,000
+Otherwise, you can work completely disconnected,
+
+12
+00:00:50,000 --> 00:00:53,866
+even preforming comparisons and commits completely off-network.
+
+13
+00:00:53,866 --> 00:00:59,166
+Since most operations are local, Git is very fast for those same operations.
+
+14
+00:00:59,166 --> 00:01:04,033
+Git is free and open source, which also contributes to its popularity.
+
+15
+00:01:04,033 --> 00:01:08,866
+Git has a very active community, and there are many resources available online.
+
+16
+00:01:08,866 --> 00:01:14,066
+Also, it is very easy to find developers that are already experienced with Git.
+
+17
+00:01:14,066 --> 00:01:19,200
+Because of all these factors, Git has become the most popular version control system.
+
+18
+00:01:19,200 --> 00:01:24,566
+Git's de-facto standard status means that Git enjoys wide adoption
+
+19
+00:01:24,566 --> 00:01:29,500
+and integration into other tools used by the software development community.
+
+20
+00:01:29,500 --> 00:01:36,300
+Including text editors, bug tracking systems, and build servers.
+

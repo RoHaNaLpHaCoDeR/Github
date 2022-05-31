@@ -1,0 +1,44 @@
+1
+00:00:00,000 --> 00:00:06,500
+O Git trabalha salvando o estado atual de todos os seus arquivos que gerencia em snapshots chamados commits;
+
+2
+00:00:06,500 --> 00:00:10,133
+um commit pode conter uma ou mais alteraes de arquivo.
+
+3
+00:00:10,133 --> 00:00:14,466
+ importante notar que as verses do Git no so pastas.
+
+4
+00:00:14,466 --> 00:00:18,166
+Ocasionalmente, voc pode precisar trabalhar com uma tecnologia que exija
+
+5
+00:00:18,166 --> 00:00:22,500
+que certas pastas existam, independentemente de haver arquivos l; se voc precisar,
+
+6
+00:00:22,500 --> 00:00:28,000
+voc pode criar arquivos fictcios vazios para forar o Git a preservar a pasta.
+
+7
+00:00:28,000 --> 00:00:32,766
+Conforme voc faz alteraes, os commits so salvos na linha do tempo, conhecida como ramificao.
+
+8
+00:00:32,766 --> 00:00:36,566
+Um repositrio Git normalmente ter pelo menos um branch e,
+
+9
+00:00:36,566 --> 00:00:39,866
+por padro, esse branch  chamado de Master; ramificaes
+
+10
+00:00:39,866 --> 00:00:43,833
+adicionais podem ser criadas, mas vou cobrir isso mais tarde.
+
+11
+00:00:43,833 --> 00:00:50,000
+Por enquanto, nosso trabalho inicial ser feito no ramo principal.
+
