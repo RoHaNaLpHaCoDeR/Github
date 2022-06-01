@@ -1,0 +1,52 @@
+1
+00:00:00,000 --> 00:00:05,233
+Eu criei dois conjuntos de processos de instalao para cada ferramenta necessria neste curso;
+
+2
+00:00:05,233 --> 00:00:08,100
+uma verso expressa e a verso completa.
+
+3
+00:00:08,100 --> 00:00:13,100
+Como este curso destina-se a engenheiros experientes, esta seo fornecer
+
+4
+00:00:13,100 --> 00:00:17,166
+uma verso simplificada e expressa das instrues de instalao.
+
+5
+00:00:17,166 --> 00:00:20,400
+Este curso inclui instrues de instalao para os
+
+6
+00:00:20,400 --> 00:00:25,433
+dois principais sistemas operacionais amplamente usados atualmente; Windows e Mac OS X.
+
+7
+00:00:25,433 --> 00:00:30,400
+Para cada sistema operacional, fornecerei a lista de ferramentas, onde baix-las
+
+8
+00:00:30,400 --> 00:00:35,266
+e quaisquer desvios das opes padro durante o processo de instalao.
+
+9
+00:00:35,266 --> 00:00:39,433
+Imediatamente aps a instalao do vdeo, haver uma palestra do documento
+
+10
+00:00:39,433 --> 00:00:45,066
+com as instrues de instalao em formato tutorial para aqueles que preferirem essa abordagem.
+
+11
+00:00:45,066 --> 00:00:50,000
+Voc pode escolher uma das palestras ou ambas para auxiliar sua instalao no seu sistema.
+
+12
+00:00:50,000 --> 00:00:54,433
+Para aqueles que preferem os vdeos completos e abrangentes
+
+13
+00:00:54,433 --> 00:01:02,433
+mostrando cada etapa do processo de instalao de cada ferramenta, eu cobri a seo bnus deste curso.
+
