@@ -1,0 +1,92 @@
+1
+00:00:00,000 --> 00:00:05,666
+Neste vdeo, vamos adicionar o controle de fonte do Git a uma pasta existente.
+
+2
+00:00:05,666 --> 00:00:09,500
+Estou atualmente conectado ao meu terminal, no diretrio pessoal do meu usurio.
+
+3
+00:00:09,500 --> 00:00:14,600
+Eu tenho uma pasta de projetos, onde venho colocando todos os meus projetos do Git.
+
+4
+00:00:14,600 --> 00:00:19,466
+Em uma lio anterior, criamos um repositrio Git em uma pasta Demo,
+
+5
+00:00:19,466 --> 00:00:22,433
+mas depois removemos o repositrio Git completamente.
+
+6
+00:00:22,433 --> 00:00:27,666
+Efetivamente, o que resta  uma pasta de projeto sem controle de verso.
+
+7
+00:00:27,666 --> 00:00:33,333
+Ento, vamos para nossa pasta "demo". Ento,  aqui que estamos; por isso, estou na
+
+8
+00:00:33,333 --> 00:00:37,400
+pasta "demo" dentro da nossa pasta "projects" abaixo do diretrio home do usurio.
+
+9
+00:00:37,400 --> 00:00:41,733
+Aqui eu tenho um arquivo Leiame e atualmente no est no controle de verso.
+
+10
+00:00:41,733 --> 00:00:47,800
+Se eu fizer um "ls -al", que lista todos os arquivos e pastas, incluindo os ocultos,
+
+11
+00:00:47,800 --> 00:00:52,066
+vejo que no h ". git "pasta para indicar um repositrio Git.
+
+12
+00:00:52,066 --> 00:00:58,233
+Alm disso, meu prompt reflete o fato de que no h repositrio Git nesta pasta ou em nenhum dos pais.
+
+13
+00:00:58,233 --> 00:01:03,766
+Para colocar esta pasta sob controle de verso com o Git, usamos o comando "init" do
+
+14
+00:01:03,766 --> 00:01:10,166
+Git; "git init", e ento voc tambm pode especificar ". "significa a pasta atual.
+
+15
+00:01:10,166 --> 00:01:15,800
+timo, agora o Git inicializou um repositrio Git vazio na pasta atual.
+
+16
+00:01:15,800 --> 00:01:22,233
+Voc pode ver isso  significado com um "(mestre)" dentro do meu prompt de comando.
+
+17
+00:01:22,233 --> 00:01:29,766
+Alm disso, quando eu fao um "ls -al", vemos que temos um ". git "pasta listada.
+
+18
+00:01:29,766 --> 00:01:35,466
+Usar o comando "git status" mostra que temos um arquivo que no est sendo rastreado.
+
+19
+00:01:35,466 --> 00:01:38,566
+Se voc vem acompanhando, voc sabe que em uma
+
+20
+00:01:38,566 --> 00:01:42,866
+lio anterior que determinado arquivo estava sendo rastreado por um repositrio Git anterior.
+
+21
+00:01:42,866 --> 00:01:45,266
+Mas, uma vez que destrumos
+
+22
+00:01:45,266 --> 00:01:49,233
+esse repositrio, temos um novo repositrio Git, comeando
+
+23
+00:01:49,233 --> 00:01:56,066
+completamente novo; esta verso do repositrio Git no possui conhecimento prvio do arquivo Readme.
+

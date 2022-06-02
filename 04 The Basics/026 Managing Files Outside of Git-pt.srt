@@ -1,0 +1,128 @@
+1
+00:00:00,000 --> 00:00:04,166
+Bem-vindo, neste vdeo vamos renomear e excluir arquivos fora
+
+2
+00:00:04,166 --> 00:00:11,300
+do Git e ver como o Git reage. Atualmente, estou no repositrio Git de "demo", no master,
+
+3
+00:00:11,300 --> 00:00:16,000
+sem nada para confirmar, pois temos um diretrio de trabalho limpo.
+
+4
+00:00:16,000 --> 00:00:20,066
+Eu tenho o "README". md "arquivo e uma" LICENA. md "file.
+
+5
+00:00:20,066 --> 00:00:25,700
+Vamos criar um novo arquivo usando o comando "touch": "touch myfile. TXT".
+
+6
+00:00:25,700 --> 00:00:29,400
+Note que este no  um comando Git, este  apenas um
+
+7
+00:00:29,400 --> 00:00:32,733
+comando bash que  usado para atualizar ou criar novos arquivos.
+
+8
+00:00:32,733 --> 00:00:38,700
+Fazendo um "ls", vemos que temos nosso "myfile". txt ", e usarei o comando bash"
+
+9
+00:00:38,700 --> 00:00:43,133
+mv ", no o comando" git mv ", para renomear
+
+10
+00:00:43,133 --> 00:00:49,766
+o arquivo" LICENSE. md "para" LICENA. TXT". Pressione Enter.
+
+11
+00:00:49,766 --> 00:00:54,700
+Se fizermos um "ls -l", vemos que temos nosso "myfile". txt "e"
+
+12
+00:00:54,700 --> 00:01:01,966
+LICENA. md "foi renomeado para" LICENSE. txt "; vamos ver como o Git v isso.
+
+13
+00:01:01,966 --> 00:01:07,033
+Bem Git v o "myfile. txt "como um arquivo no rastreado, o que
+
+14
+00:01:07,033 --> 00:01:13,333
+no  surpreendente, mas ele v a renomeao como uma excluso e a incluso de um arquivo no rastreado.
+
+15
+00:01:13,333 --> 00:01:16,833
+Ento, precisamos informar ao Git sobre nossas mudanas recentes.
+
+16
+00:01:16,833 --> 00:01:22,933
+Por simplesmente ter excluses, podemos usar o parmetro "-u" com o comando "git add".
+
+17
+00:01:22,933 --> 00:01:28,733
+Digite "git add -u", que significa update, depois pressione enter.
+
+18
+00:01:28,733 --> 00:01:34,200
+Agora, vamos fazer um "status git"; agora temos nossas "Alteraes a serem confirmadas", o
+
+19
+00:01:34,200 --> 00:01:40,533
+que significa que pegou a "LICENA". txt "arquivo, mas no pegou o" myfile. TXT".
+
+20
+00:01:40,533 --> 00:01:48,133
+Ento, para incluir adies e excluses, voc precisa usar "git add -A"; Isso cobrir todos os
+
+21
+00:01:48,133 --> 00:01:53,066
+tipos de modificaes possveis no diretrio de trabalho atual e far
+
+22
+00:01:53,066 --> 00:01:57,400
+essas atualizaes de acordo com o ndice do Git.
+
+23
+00:01:57,400 --> 00:02:02,666
+Agora, se eu fizer um "status git", ele ver corretamente a "LICENA. md "arquivo sendo
+
+24
+00:02:02,666 --> 00:02:09,900
+renomeado para" LICENSE. txt ", e tambm pega o novo arquivo", myfile. txt "Novamente, neste momento,
+
+25
+00:02:09,900 --> 00:02:13,366
+essas alteraes so apenas encenadas.
+
+26
+00:02:13,366 --> 00:02:22,533
+Vamos seguir em frente comprometendo; timo, agora comprometemos essas mudanas.
+
+27
+00:02:22,533 --> 00:02:28,500
+E se ns determinssemos que realmente no queremos esse "meu arquivo". TXT"?
+
+28
+00:02:28,500 --> 00:02:33,833
+Poderamos usar o comando bash "rm" para excluir o arquivo no nvel do sistema operacional.
+
+29
+00:02:33,833 --> 00:02:39,633
+Vamos fazer isso. Agora, se fizermos um "status git", ele ver que o arquivo foi excludo.
+
+30
+00:02:39,633 --> 00:02:48,033
+Vamos encenar isto; Agora, se fizermos um "git add -u", ele pegar a excluso e o colocar em cena.
+
+31
+00:02:48,033 --> 00:02:56,633
+Agora, ele v o arquivo excludo e o organizou; Agora, vamos confirmar que ":"
+
+32
+00:02:56,633 --> 00:03:06,633
+git commit -m "removeu o myfile. TXT". timo, agora esse arquivo foi removido.
+

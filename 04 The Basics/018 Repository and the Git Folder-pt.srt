@@ -1,0 +1,104 @@
+1
+00:00:00,000 --> 00:00:05,833
+Bem-vindo, neste vdeo, vou mostrar o funcionamento interno do repositrio Git.
+
+2
+00:00:05,833 --> 00:00:09,400
+Atualmente estou no meu repositrio de demonstrao
+
+3
+00:00:09,400 --> 00:00:13,666
+e atualmente temos um arquivo leia-me, que foi confirmado.
+
+4
+00:00:13,666 --> 00:00:17,666
+O que  interessante  que essa pasta especfica em que estamos
+
+5
+00:00:17,666 --> 00:00:23,466
+atualmente, a pasta "/ projects / demo",  o diretrio de trabalho do nosso repositrio Git; o
+
+6
+00:00:23,466 --> 00:00:29,233
+repositrio Git real est contido dentro do ". git "pasta em si.
+
+7
+00:00:29,233 --> 00:00:32,333
+Se eu mudar de diretrio para o ". git "folder, meu
+
+8
+00:00:32,333 --> 00:00:36,200
+prompt muda para avisar que estou no diretrio Git.
+
+9
+00:00:36,200 --> 00:00:40,733
+Este  um diretrio especial que o Git gerencia internamente, e possui
+
+10
+00:00:40,733 --> 00:00:45,566
+vrios arquivos e pastas que so usados e gerenciados exclusivamente pelo Git.
+
+11
+00:00:45,566 --> 00:00:48,766
+Eu recomendo que voc fique fora do ". git "pasta, a menos que
+
+12
+00:00:48,766 --> 00:00:51,066
+voc saiba exatamente o que est fazendo.
+
+13
+00:00:51,066 --> 00:00:55,400
+Em lies futuras, podemos voltar e realmente editar arquivos dentro desta pasta,
+
+14
+00:00:55,400 --> 00:00:57,400
+mas vou gui-lo atravs desse processo.
+
+15
+00:00:57,400 --> 00:01:02,200
+Tudo bem, agora que estamos olhando para este particular ". git "pasta, vamos voltar
+
+16
+00:01:02,200 --> 00:01:06,033
+para a nossa pasta de trabalho.
+
+17
+00:01:06,033 --> 00:01:11,700
+Para provar mais que nosso repositrio Git est totalmente contido dentro disso ". git "pasta, eu vou remover completamente o
+
+18
+00:01:11,700 --> 00:01:14,100
+fato de que esta pasta est
+
+19
+00:01:14,100 --> 00:01:19,466
+sob controle de verso, excluindo o". git "pasta.
+
+20
+00:01:19,466 --> 00:01:25,500
+Voc pode usar o comando "rm", passando os parmetros "-r" e "-f" para excluir de forma
+
+21
+00:01:25,500 --> 00:01:32,000
+contundente e recursiva tudo o que estiver contido ". git "; agora, pressione enter.
+
+22
+00:01:32,000 --> 00:01:36,600
+Quando retornamos, nosso prompt remove o fato de que estamos na
+
+23
+00:01:36,600 --> 00:01:42,166
+ramificao principal em um repositrio Git, porque no estamos mais em um repositrio Git.
+
+24
+00:01:42,166 --> 00:01:47,233
+Agora eu tenho apenas o arquivo Leiame e no ". git "pasta.
+
+25
+00:01:47,233 --> 00:01:53,033
+Se eu usar um comando do Git que requer um repositrio Git, como o comando
+
+26
+00:01:53,033 --> 00:01:58,966
+"git status", o Git responder com o fato de que no est em um repositrio Git.
+

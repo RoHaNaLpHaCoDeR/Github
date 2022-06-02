@@ -1,0 +1,128 @@
+1
+00:00:00,000 --> 00:00:03,966
+Neste vdeo, vamos ignorar arquivos e pastas que
+
+2
+00:00:03,966 --> 00:00:07,700
+no queremos rastrear em nosso repositrio Git.
+
+3
+00:00:07,700 --> 00:00:12,266
+Eu estou atualmente no repositrio Git "demo"; Estou no branch master,
+
+4
+00:00:12,266 --> 00:00:16,500
+sem nada para commitar, pois tenho um diretrio de trabalho limpo.
+
+5
+00:00:16,500 --> 00:00:22,300
+Listando meus arquivos, eu tenho uma "LICENA. txt "arquivo e um" README. md "file, ambos os arquivos que
+
+6
+00:00:22,300 --> 00:00:26,033
+eu quero no meu repositrio Git. Mas, vou fingir
+
+7
+00:00:26,033 --> 00:00:31,166
+que esse repositrio  parte de um aplicativo contido
+
+8
+00:00:31,166 --> 00:00:41,900
+nele e,  medida que  executado, est gerando logs. Ento, com o meu editor
+
+9
+00:00:41,900 --> 00:00:54,033
+de texto aberto, vou adicionar algumas linhas aleatrias para representar um log.
+
+10
+00:00:54,033 --> 00:00:56,366
+Tudo bem, vou salvar e fechar este arquivo; Se eu fizer um
+
+11
+00:00:56,366 --> 00:01:00,300
+"ls", voc pode ver que eu tenho o meu "aplicativo. arquivo de log.
+
+12
+00:01:00,300 --> 00:01:05,666
+E, normalmente, no queremos armazenar arquivos de log, ou quaisquer outros arquivos que
+
+13
+00:01:05,666 --> 00:01:11,166
+tenham sido gerados, ou no so fontes originais que fazem parte deste projeto.
+
+14
+00:01:11,166 --> 00:01:15,500
+Se eu fizer um "status git", o Git ver que temos esse "aplicativo. arquivo de log.
+
+15
+00:01:15,500 --> 00:01:20,866
+E, embora eu possa sempre tentar lembrar de excluir esse arquivo quando estou fazendo meus
+
+16
+00:01:20,866 --> 00:01:24,000
+commits, sei que acabarei esquecendo, e apenas adicionarei tudo,
+
+17
+00:01:24,000 --> 00:01:27,400
+e esse arquivo de log terminar no meu repositrio Git.
+
+18
+00:01:27,400 --> 00:01:32,633
+Felizmente, o Git fornece um bom recurso para excluir arquivos e pastas que no queremos
+
+19
+00:01:32,633 --> 00:01:38,166
+em nosso repositrio Git;  chamado de ". gitignore "arquivo.
+
+20
+00:01:38,166 --> 00:01:45,400
+Ento, digite "mate". gitignore ", depois pressione enter.
+
+21
+00:01:45,400 --> 00:01:54,733
+E a sintaxe desse arquivo  simplesmente um padro ou expresso por linha.
+
+22
+00:01:54,733 --> 00:02:01,900
+Eu poderia segmentar especificamente esse arquivo exato, mas  mais provvel que eu queira segmentar todos os arquivos de
+
+23
+00:02:01,900 --> 00:02:08,200
+log, ento, em vez disso, usarei uma expresso; ". log ", que significa qualquer arquivo
+
+24
+00:02:08,200 --> 00:02:13,866
+que termine com". log "ser excludo. Vamos salvar e depois fechar.
+
+25
+00:02:13,866 --> 00:02:18,866
+De volta ao terminal, voc pode ver o ". gitignore "j est no trabalho.
+
+26
+00:02:18,866 --> 00:02:23,700
+O que voc notar  que o ". gitignore "arquivo, ele prprio sendo
+
+27
+00:02:23,700 --> 00:02:27,733
+um arquivo, precisa ser rastreado no repositrio Git.
+
+28
+00:02:27,733 --> 00:02:31,733
+Ento, adicione o ". gitignore "arquivo para a rea de teste do Git.
+
+29
+00:02:31,733 --> 00:02:39,400
+"git commit -m", espao e ento nossa mensagem de commit: "Adicionando o arquivo ignorado".
+
+30
+00:02:39,400 --> 00:02:45,366
+timo, estou de volta a um diretrio de trabalho limpo e ao nosso "aplicativo. log "arquivo foi excludo.
+
+31
+00:02:45,366 --> 00:02:49,200
+Ainda est no sistema de arquivos, mas no est no nosso repositrio Git.
+
+32
+00:02:49,200 --> 00:02:56,166
+Por enquanto, vou seguir em frente e remover o arquivo de log completamente.
+

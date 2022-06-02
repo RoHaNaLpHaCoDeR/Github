@@ -1,0 +1,148 @@
+1
+00:00:00,000 --> 00:00:05,033
+In this video, we're going to edit an existing file being managed by Git.
+
+2
+00:00:05,033 --> 00:00:09,666
+Within my terminal, I'm currently in our "demo" Git repository.
+
+3
+00:00:09,666 --> 00:00:14,400
+If I do a "git status", we currently have a clean working directory, with nothing to commit.
+
+4
+00:00:14,400 --> 00:00:18,833
+Doing an "ls" shows that we have a "LICENSE.md" and a "README.md" file.
+
+5
+00:00:18,833 --> 00:00:23,866
+Let's update our Readme file; type "mate README.md".
+
+6
+00:00:23,866 --> 00:00:27,800
+I'm just going to add some more text, save and then close.
+
+7
+00:00:27,800 --> 00:00:31,266
+Back at the terminal, I'm going to do a "git status",
+
+8
+00:00:31,266 --> 00:00:34,666
+and now Git tells me that I have a modified file.
+
+9
+00:00:34,666 --> 00:00:39,733
+So the difference is, in prior videos our Readme file was untracked,
+
+10
+00:00:39,733 --> 00:00:43,200
+and then it was changes to be committed. In this case,
+
+11
+00:00:43,200 --> 00:00:48,666
+we have a modified file that simply says "Changes not staged for commit".
+
+12
+00:00:48,666 --> 00:00:54,833
+This is how Git tracks the differences between files that are untracked and tracked files.
+
+13
+00:00:54,833 --> 00:01:01,200
+To tell what files Git is tracking, we can use the "git ls files" command.
+
+14
+00:01:01,200 --> 00:01:07,566
+Git tells me that I have two files being tracked, which is the License file and the Readme file.
+
+15
+00:01:07,566 --> 00:01:11,200
+If I add a new file using the "touch' command,
+
+16
+00:01:11,200 --> 00:01:16,566
+I can see that the "new.file" is in my file system.
+
+17
+00:01:16,566 --> 00:01:22,000
+Git sees that I have an untracked file, and the modification to the Readme file.
+
+18
+00:01:22,000 --> 00:01:27,700
+Doing "git ls -files" still reveals that Git is only tracking
+
+19
+00:01:27,700 --> 00:01:32,233
+the License and the Readme file; not the "new.file".
+
+20
+00:01:32,233 --> 00:01:37,833
+Let's go ahead and get rid of that file right quick: "rm new.file";
+
+21
+00:01:37,833 --> 00:01:40,933
+that's the bash remove command.
+
+22
+00:01:40,933 --> 00:01:44,600
+Now, I'm back to simply having the Readme file changes.
+
+23
+00:01:44,600 --> 00:01:48,266
+And, the reason why I go through that to show what files are being tracked
+
+24
+00:01:48,266 --> 00:01:53,533
+is that the next command relies upon any tracked files in order to work;
+
+25
+00:01:53,533 --> 00:01:56,433
+and, that is something I call the "express commit".
+
+26
+00:01:56,433 --> 00:02:01,333
+And, that's when we use the "git commit", passing the "-a" parameter,
+
+27
+00:02:01,333 --> 00:02:07,766
+the "-a" parameter tells Git to first add modified files to the Git staging area,
+
+28
+00:02:07,766 --> 00:02:10,133
+and then directly proceed to committing.
+
+29
+00:02:10,133 --> 00:02:14,766
+We can accomplish this with basically a single command with this option.
+
+30
+00:02:14,766 --> 00:02:19,000
+Now, you might be wondering, "hey, why are we adding a modified file?"
+
+31
+00:02:19,000 --> 00:02:24,566
+Well, it's just the way that Git works; so, basically, the way I look at it is that I'm adding
+
+32
+00:02:24,566 --> 00:02:29,766
+the modifications to the Git staging area, and then committing those changes.
+
+33
+00:02:29,766 --> 00:02:34,300
+Let's proceed forward by also specifying our "-m" parameter,
+
+34
+00:02:34,300 --> 00:02:39,133
+that we can actually combine together, into a single "-am" parameter.
+
+35
+00:02:39,133 --> 00:02:45,566
+So, we have "git commit -am", then space, and then the commit message:
+
+36
+00:02:45,566 --> 00:02:50,466
+"Updating README", then press enter. Great, the commit's completed.
+
+37
+00:02:50,466 --> 00:02:58,200
+If I type "git log", now I have two commits, with the most recent at the top.
+

@@ -1,0 +1,68 @@
+1
+00:00:00,000 --> 00:00:06,000
+Neste vdeo, mostrarei o histrico de commits com "git log".
+
+2
+00:00:06,000 --> 00:00:10,233
+Eu estou atualmente no meu terminal, dentro do repositrio Git "demo".
+
+3
+00:00:10,233 --> 00:00:13,900
+Como acabamos de realizar um commit, temos um diretrio de trabalho limpo; ento
+
+4
+00:00:13,900 --> 00:00:15,666
+no h mais nada para cometer.
+
+5
+00:00:15,666 --> 00:00:20,333
+Para provar a voc que todas as nossas mudanas que acabamos de fazer esto no repositrio
+
+6
+00:00:20,333 --> 00:00:24,600
+Git, podemos usar o comando log do Git para mostrar nossa lista de commits.
+
+7
+00:00:24,600 --> 00:00:27,866
+Se eu simplesmente digitar "git log", ento pressione enter,
+
+8
+00:00:27,866 --> 00:00:32,333
+o Git responde com todos os commits que fazem parte deste repositrio.
+
+9
+00:00:32,333 --> 00:00:36,066
+Alis, h apenas um commit; vamos passar por isso.
+
+10
+00:00:36,066 --> 00:00:42,766
+Comea com o ID de confirmao. Ento ns temos "commit"; espao; e, em seguida, esse identificador
+
+11
+00:00:42,766 --> 00:00:48,333
+longo: esse  o identificador SHA-1 usado para identificar com exclusividade os commits em um repositrio.
+
+12
+00:00:48,333 --> 00:00:52,700
+Aps o ID de commit, temos o autor, que  eu, seguido
+
+13
+00:00:52,700 --> 00:00:55,566
+da data e depois da mensagem de commit.
+
+14
+00:00:55,566 --> 00:01:01,800
+Nesse caso, tivemos nossa mensagem de confirmao de vrias linhas que inserimos usando nosso editor principal.
+
+15
+00:01:01,800 --> 00:01:04,866
+Podemos obter informaes semelhantes usando o comando "show".
+
+16
+00:01:04,866 --> 00:01:11,866
+Basta digitar "git show", e ele mostrar o ltimo commit e um diff contendo todas as alteraes.
+
+17
+00:01:11,866 --> 00:01:16,300
+Para sair do comando show, pressione 'q'.
+

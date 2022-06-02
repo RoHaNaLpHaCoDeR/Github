@@ -1,0 +1,104 @@
+1
+00:00:00,000 --> 00:00:05,833
+Welcome, in this video, I'm going to show you the inner workings of the Git repository.
+
+2
+00:00:05,833 --> 00:00:09,400
+I'm currently in my demo repository,
+
+3
+00:00:09,400 --> 00:00:13,666
+and we currently have one readme file, which has been committed.
+
+4
+00:00:13,666 --> 00:00:17,666
+What's interesting is this specific folder that we're currently in,
+
+5
+00:00:17,666 --> 00:00:23,466
+the "/projects/demo" folder, is the working directory of our Git repository;
+
+6
+00:00:23,466 --> 00:00:29,233
+the actual Git repository is contained within the ".git" folder itself.
+
+7
+00:00:29,233 --> 00:00:32,333
+If I change directory into the ".git" folder,
+
+8
+00:00:32,333 --> 00:00:36,200
+my prompt changes to warn me that I'm in the Git directory.
+
+9
+00:00:36,200 --> 00:00:40,733
+This is a special directory that Git manages internally,
+
+10
+00:00:40,733 --> 00:00:45,566
+and it has several files and folders that are used and managed exclusively by Git.
+
+11
+00:00:45,566 --> 00:00:48,766
+I highly recommend that you just stay out of the ".git" folder,
+
+12
+00:00:48,766 --> 00:00:51,066
+unless you know exactly what you're doing.
+
+13
+00:00:51,066 --> 00:00:55,400
+In future lessons, we may come back and actually edit files within this folder,
+
+14
+00:00:55,400 --> 00:00:57,400
+but I will guide you through that process.
+
+15
+00:00:57,400 --> 00:01:02,200
+Alright, now that we're done looking at this particular ".git" folder,
+
+16
+00:01:02,200 --> 00:01:06,033
+let's back up to our working folder.
+
+17
+00:01:06,033 --> 00:01:11,700
+To further prove that our Git repository is wholly contained within that ".git" folder,
+
+18
+00:01:11,700 --> 00:01:14,100
+I'm going to completely remove the fact that this
+
+19
+00:01:14,100 --> 00:01:19,466
+folder is under version control by deleting the ".git" folder.
+
+20
+00:01:19,466 --> 00:01:25,500
+You can use the "rm" command, passing in the "-r" and "-f" parameters
+
+21
+00:01:25,500 --> 00:01:32,000
+to forcefully and recursively delete anything that's contained within ".git"; now, press enter.
+
+22
+00:01:32,000 --> 00:01:36,600
+When we return, our prompt removes the fact that we're on the master branch
+
+23
+00:01:36,600 --> 00:01:42,166
+in a Git repository, because we are no longer in a Git repository.
+
+24
+00:01:42,166 --> 00:01:47,233
+Now I have only the Readme file, and no ".git" folder.
+
+25
+00:01:47,233 --> 00:01:53,033
+If I use a Git command that requires a Git repository, like the "git status" command,
+
+26
+00:01:53,033 --> 00:01:58,966
+Git will respond with the fact that it's not in a Git repository.
+

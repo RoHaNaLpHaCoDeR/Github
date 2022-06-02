@@ -1,0 +1,72 @@
+1
+00:00:00,000 --> 00:00:06,266
+Bem-vindo, neste vdeo, comearemos criando um novo repositrio Git localmente.
+
+2
+00:00:06,266 --> 00:00:12,800
+Ligue o seu terminal, e voc pode ver que eu tenho meus diretrios padro que eu tenho, que so
+
+3
+00:00:12,800 --> 00:00:15,933
+parte de uma nova instilao do sistema operacional Mac.
+
+4
+00:00:15,933 --> 00:00:19,733
+Eu quero criar um local para todos os projetos
+
+5
+00:00:19,733 --> 00:00:23,966
+do Git que temos; Vamos criar um diretrio chamado projetos.
+
+6
+00:00:23,966 --> 00:00:29,533
+timo agora a pasta de projetos est l; vamos entrar nisso, como voc pode ver,
+
+7
+00:00:29,533 --> 00:00:33,733
+estamos na pasta de projetos, dentro do diretrio pessoal do usurio.
+
+8
+00:00:33,733 --> 00:00:39,733
+Agora, vou usar o comando "git init" para criar um novo repositrio dentro da pasta de projetos.
+
+9
+00:00:39,733 --> 00:00:44,400
+Digite "git init"; espao; e ento o nome do seu projeto ou pasta
+
+10
+00:00:44,400 --> 00:00:49,033
+de trabalho que voc quer criar, para este exemplo eu vou usar "demo".
+
+11
+00:00:49,033 --> 00:00:55,033
+Git respondeu dizendo que inicializou um repositrio Git vazio dentro da pasta "demo".
+
+12
+00:00:55,033 --> 00:00:59,200
+Se eu fizer um "ls", voc pode ver que eu tenho uma pasta de demonstrao.
+
+13
+00:00:59,200 --> 00:01:03,066
+Se eu entrar nessa pasta, meu prompt muda para refletir o fato
+
+14
+00:01:03,066 --> 00:01:08,900
+de que eu tenho um repositrio Git que est em "master"; que  o nome da ramificao padro que
+
+15
+00:01:08,900 --> 00:01:12,033
+voc obtm sempre que voc cria um novo repositrio Git.
+
+16
+00:01:12,033 --> 00:01:18,900
+Se eu fizer um "ls -al", eu posso ver todos os arquivos e pastas que fazem parte deste repositrio.
+
+17
+00:01:18,900 --> 00:01:24,333
+Que, neste caso, no h arquivos ou pastas alm do padro ". git "pasta, que
+
+18
+00:01:24,333 --> 00:01:28,500
+ o repositrio Git real.
+

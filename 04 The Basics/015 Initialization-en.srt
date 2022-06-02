@@ -1,0 +1,72 @@
+1
+00:00:00,000 --> 00:00:06,266
+Welcome, in this video, we're going to get started by creating a new Git repository locally.
+
+2
+00:00:06,266 --> 00:00:12,800
+Fire up your terminal, and you can see that I have my standard directories that I have,
+
+3
+00:00:12,800 --> 00:00:15,933
+that are part of a new instillation of the Mac operating system.
+
+4
+00:00:15,933 --> 00:00:19,733
+I want to create a location for all the Git projects that we have;
+
+5
+00:00:19,733 --> 00:00:23,966
+let's create a directory called projects.
+
+6
+00:00:23,966 --> 00:00:29,533
+Great now the projects folder is there; let's go into it,
+
+7
+00:00:29,533 --> 00:00:33,733
+as you can see, we're in the projects folder, within the user's home directory.
+
+8
+00:00:33,733 --> 00:00:39,733
+Now, I'm going to use the "git init" command to create a new repository within the projects folder.
+
+9
+00:00:39,733 --> 00:00:44,400
+Type "git init"; space; and then the name of your project
+
+10
+00:00:44,400 --> 00:00:49,033
+or working folder that you want to create, for this example I'm going to use "demo".
+
+11
+00:00:49,033 --> 00:00:55,033
+Git responded by saying it initialized an empty Git repository within the "demo" folder.
+
+12
+00:00:55,033 --> 00:00:59,200
+If I do an "ls", you can see that I have a demo folder.
+
+13
+00:00:59,200 --> 00:01:03,066
+If I go into that folder, my prompt changes to reflect the fact
+
+14
+00:01:03,066 --> 00:01:08,900
+that I have a Git repository that is on "master"; which is the default branch name
+
+15
+00:01:08,900 --> 00:01:12,033
+that you get whenever you create a new Git repository.
+
+16
+00:01:12,033 --> 00:01:18,900
+If I do an "ls -al", I can see all the files and folders that are part of this repository.
+
+17
+00:01:18,900 --> 00:01:24,333
+Which, in this case, there are no files or folders other than the default ".git" folder,
+
+18
+00:01:24,333 --> 00:01:28,500
+which is the actual Git repository.
+
