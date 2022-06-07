@@ -1,0 +1,136 @@
+1
+00:00:00,000 --> 00:00:05,900
+Welcome, in this video, we're going to compare differences with the "diff" command.
+
+2
+00:00:05,900 --> 00:00:08,833
+I'm currently in the "demo" Git repository.
+
+3
+00:00:08,833 --> 00:00:13,433
+I'm on master, with nothing to commit since I'm on a clean working directory.
+
+4
+00:00:13,433 --> 00:00:21,500
+I'm going to use my newly created "hist" alias to show my history, at least thus far.
+
+5
+00:00:21,500 --> 00:00:25,566
+If I wanted to see the differences between two commit points,
+
+6
+00:00:25,566 --> 00:00:29,000
+I could use the "git diff" command to do so.
+
+7
+00:00:29,000 --> 00:00:36,700
+I'm going to select the second from the bottom commit, which is "d444e90",
+
+8
+00:00:36,700 --> 00:00:41,333
+and then the second point, I'm going to use the special pointer called "HEAD",
+
+9
+00:00:41,333 --> 00:00:45,833
+then press enter. Now we get a difference between the "HEAD", which is
+
+10
+00:00:45,833 --> 00:00:51,433
+the last commit on the current branch, which is master, and that specific commit.
+
+11
+00:00:51,433 --> 00:00:55,800
+We could use the same command, except using the "difftool" command,
+
+12
+00:00:55,800 --> 00:01:00,500
+again, the same parameters, and Git will launch the configured diff tool,
+
+13
+00:01:00,500 --> 00:01:07,333
+which in my case is P4Merge. Since I have multiple files that are associated with this diff,
+
+14
+00:01:07,333 --> 00:01:13,033
+I'm going to cycle through each one of them by quitting P4Merge with command+q
+
+15
+00:01:13,033 --> 00:01:16,400
+in order to cycle to the next file involved in the diff.
+
+16
+00:01:16,400 --> 00:01:20,066
+Once we've cycled through all the files that are associated with the diff,
+
+17
+00:01:20,066 --> 00:01:27,066
+Git returns us back to the terminal. I'm going to modify the "README.md" file.
+
+18
+00:01:27,066 --> 00:01:32,466
+I've saved those changes, and now I know I have a modified Readme file,
+
+19
+00:01:32,466 --> 00:01:36,566
+but I don't know what those changes are. Again, "git diff" to the rescue.
+
+20
+00:01:36,566 --> 00:01:40,500
+If I just type "git diff", I get a difference between
+
+21
+00:01:40,500 --> 00:01:42,933
+what's recently changed in the working directory,
+
+22
+00:01:42,933 --> 00:01:49,500
+versus the "HEAD" position in the Git repository, which is the last commit on this branch.
+
+23
+00:01:49,500 --> 00:01:52,200
+So, you can see that instead of just "Heading 2",
+
+24
+00:01:52,200 --> 00:01:56,433
+that we have "Heading 2", "+Just some updates".
+
+25
+00:01:56,433 --> 00:02:00,300
+In the same fashion, if we type "git difftool",
+
+26
+00:02:00,300 --> 00:02:07,200
+we do the same thing, but we get to use P4Merge instead. There we have it.
+
+27
+00:02:07,200 --> 00:02:12,333
+Once you're done looking at the differences between "HEAD" and the working directory,
+
+28
+00:02:12,333 --> 00:02:17,633
+quit out of P4Merge by using command+q.
+
+29
+00:02:17,633 --> 00:02:20,300
+The "diff" command is actually extremely powerful;
+
+30
+00:02:20,300 --> 00:02:24,700
+I recommend that you look at the help page for the "diff" command.
+
+31
+00:02:24,700 --> 00:02:27,133
+There are many many different options,
+
+32
+00:02:27,133 --> 00:02:31,466
+and it's extremely flexible and can be used in a number of cases.
+
+33
+00:02:31,466 --> 00:02:35,300
+And, for the most part, anything that can be passed into the "diff" command
+
+34
+00:02:35,300 --> 00:02:39,366
+can also be passed into the "difftool" command.
+
