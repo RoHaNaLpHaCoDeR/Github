@@ -1,0 +1,104 @@
+1
+00:00:00,000 --> 00:00:04,933
+Ramificao e fuso so conceitos importantes no Git.
+
+2
+00:00:04,933 --> 00:00:09,800
+O Git faz com que tanto a ramificao quanto a fuso sejam muito mais fceis do que as
+
+3
+00:00:09,800 --> 00:00:12,566
+ferramentas anteriores e, portanto, muitos fluxos de trabalho dependem delas.
+
+4
+00:00:12,566 --> 00:00:16,633
+Como discutido anteriormente, um ramo  apenas uma linha do tempo de commits.
+
+5
+00:00:16,633 --> 00:00:21,866
+Mais precisamente, os ramos so os nomes ou rtulos que damos linhas de tempo no Git.
+
+6
+00:00:21,866 --> 00:00:26,066
+Podemos criar e excluir ramificaes sem afetar as linhas do tempo; tudo
+
+7
+00:00:26,066 --> 00:00:31,000
+o que estamos fazendo  criar ou excluir rtulos de commit commits no Git.
+
+8
+00:00:31,000 --> 00:00:35,200
+At agora, estamos trabalhando no branch master padro.
+
+9
+00:00:35,200 --> 00:00:41,200
+Agora, podemos criar uma nova ramificao para fazer um pouco de trabalho e, em seguida, reingressar
+
+10
+00:00:41,200 --> 00:00:45,166
+na ramificao principal mesclando quaisquer alteraes que ocorreram na nova ramificao.
+
+11
+00:00:45,166 --> 00:00:49,666
+Ao mesclar, o Git tenta o melhor para mesclar automaticamente quando possvel,
+
+12
+00:00:49,666 --> 00:00:54,000
+o que leva a vrios tipos de cenrios de mesclagem possveis.
+
+13
+00:00:54,000 --> 00:00:59,166
+Primeiro, a fuso rpida; isso acontece no mais simples dos casos, quando
+
+14
+00:00:59,166 --> 00:01:04,833
+nenhum trabalho adicional foi detectado no ramo pai ou no mestre do caso.
+
+15
+00:01:04,833 --> 00:01:10,633
+O Git ir simplesmente aplicar todos os commits da outra ramificao diretamente no branch pai, como
+
+16
+00:01:10,633 --> 00:01:13,133
+se nunca tivssemos se ramificado para comear.
+
+17
+00:01:13,133 --> 00:01:18,966
+Claro, podemos desabilitar as fuses rpidas se forem indesejadas por algum motivo.
+
+18
+00:01:18,966 --> 00:01:23,033
+Em segundo lugar, fuses automticas; isso acontece quando o
+
+19
+00:01:23,033 --> 00:01:26,533
+Git detecta alteraes no conflitantes no ramo pai.
+
+20
+00:01:26,533 --> 00:01:30,333
+O Git  capaz de resolver automaticamente quaisquer conflitos.
+
+21
+00:01:30,333 --> 00:01:35,533
+Ao fazer isso, a linha de tempo da ramificao antiga  preservada e uma nova consolidao de mesclagem
+
+22
+00:01:35,533 --> 00:01:41,066
+ criada para mostrar a mesclagem das duas ramificaes. Em terceiro lugar, mesclar manual; isso
+
+23
+00:01:41,066 --> 00:01:45,800
+acontece quando o Git no consegue resolver automaticamente nenhum conflito.
+
+24
+00:01:45,800 --> 00:01:49,933
+O Git entra em um estado especial de mesclagem conflitante, o que significa
+
+25
+00:01:49,933 --> 00:01:54,900
+que todos os conflitos de mesclagem devem ser resolvidos antes de avanar com um commit.
+
+26
+00:01:54,900 --> 00:02:02,000
+Depois que todos os conflitos tiverem sido resolvidos, essas alteraes sero salvas como uma confirmao de mesclagem.
+
