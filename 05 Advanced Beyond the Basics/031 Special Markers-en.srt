@@ -1,0 +1,36 @@
+1
+00:00:00,000 --> 00:00:04,000
+In addition to branches, tags, and other labels for commits
+
+2
+00:00:04,000 --> 00:00:09,600
+Git has special markers or pointers. One popular marker is called HEAD.
+
+3
+00:00:09,600 --> 00:00:13,166
+HEAD is normally the last commit of the current branch.
+
+4
+00:00:13,166 --> 00:00:17,500
+That means that, as we switch branches, the location of HEAD moves
+
+5
+00:00:17,500 --> 00:00:20,966
+to match the last commit location of that branch.
+
+6
+00:00:20,966 --> 00:00:25,266
+While this is generally true, it is also possible to manually move
+
+7
+00:00:25,266 --> 00:00:29,166
+the head location someplace other than the last commit;
+
+8
+00:00:29,166 --> 00:00:32,266
+we'll cover that in the advanced section of this course.
+
+9
+00:00:32,266 --> 00:00:37,833
+For now, HEAD points to the last commit of the current branch.
+
