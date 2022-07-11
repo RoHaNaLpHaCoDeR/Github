@@ -1,0 +1,92 @@
+1
+00:00:00,000 --> 00:00:05,666
+In this video, we're going to add Git source control to an existing folder.
+
+2
+00:00:05,666 --> 00:00:09,500
+I'm currently logged into my terminal, in my user's home directory.
+
+3
+00:00:09,500 --> 00:00:14,600
+I have a projects folder, where I've been putting all my Git projects.
+
+4
+00:00:14,600 --> 00:00:19,466
+In a previous lesson, we created a Git repository in a Demo folder,
+
+5
+00:00:19,466 --> 00:00:22,433
+but then we removed the Git repository entirely.
+
+6
+00:00:22,433 --> 00:00:27,666
+Effectively, what we're left with is a project folder without version control.
+
+7
+00:00:27,666 --> 00:00:33,333
+So, let's go into our "demo" folder. So, this is where we're at; so I'm within the "demo" folder
+
+8
+00:00:33,333 --> 00:00:37,400
+within our "projects" folder underneath the user's home directory.
+
+9
+00:00:37,400 --> 00:00:41,733
+Here I have a Readme file, and it's currently not in version control.
+
+10
+00:00:41,733 --> 00:00:47,800
+If I do an "ls -al", which lists all the files and folders including hidden ones,
+
+11
+00:00:47,800 --> 00:00:52,066
+I see there is no ".git" folder to indicate a Git repository.
+
+12
+00:00:52,066 --> 00:00:58,233
+Also, my prompt reflects the fact that there is no Git repository in this folder or any parents.
+
+13
+00:00:58,233 --> 00:01:03,766
+To place this folder under version control with Git, we use Git's "init" command;
+
+14
+00:01:03,766 --> 00:01:10,166
+"git init", and then you can also specify "." to mean this current folder.
+
+15
+00:01:10,166 --> 00:01:15,800
+Great, now Git has initialized an empty Git repository in the current folder.
+
+16
+00:01:15,800 --> 00:01:22,233
+You can see this is signified with a "(master)" within my command prompt.
+
+17
+00:01:22,233 --> 00:01:29,766
+Also, when I do an "ls -al", we see we have a ".git" folder listed.
+
+18
+00:01:29,766 --> 00:01:35,466
+Using the "git status" command shows that we have one file that's not being tracked.
+
+19
+00:01:35,466 --> 00:01:38,566
+If you have been following along, you know that in a previous lesson
+
+20
+00:01:38,566 --> 00:01:42,866
+that particular file was being tracked by a previous Git repository.
+
+21
+00:01:42,866 --> 00:01:45,266
+But, since we blew away that repository,
+
+22
+00:01:45,266 --> 00:01:49,233
+we have a brand-new Git repository, starting completely fresh;
+
+23
+00:01:49,233 --> 00:01:56,066
+this version of the Git repository has no prior knowledge of that Readme file.
+
