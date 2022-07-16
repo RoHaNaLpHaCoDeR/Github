@@ -1,0 +1,160 @@
+1
+00:00:00,000 --> 00:00:04,766
+Welcome, in this video, we're going to play with the "git log" command a little bit more
+
+2
+00:00:04,766 --> 00:00:08,600
+and then create a Git alias to shorten a command down.
+
+3
+00:00:08,600 --> 00:00:12,333
+In my terminal, I'm currently in the "demo" Git repository.
+
+4
+00:00:12,333 --> 00:00:15,733
+I'm currently on the master branch, with nothing to commit,
+
+5
+00:00:15,733 --> 00:00:18,500
+since I have a clean working directory.
+
+6
+00:00:18,500 --> 00:00:24,100
+If I type the standard "git log" command, I see that I have two commits.
+
+7
+00:00:24,100 --> 00:00:29,466
+However, if I use Git's help command by typing "git help log",
+
+8
+00:00:29,466 --> 00:00:34,233
+I can see that I have lots and lots of options available to me.
+
+9
+00:00:34,233 --> 00:00:37,900
+I'm going to quit out of here; I happen to know the options I want to use.
+
+10
+00:00:37,900 --> 00:00:45,500
+So, let's use "git log --oneline", which will provide a simplified commit entry,
+
+11
+00:00:45,500 --> 00:00:50,000
+providing a lot of that information on a single line, instead of multiple lines;
+
+12
+00:00:50,000 --> 00:00:56,966
+"--graph", which will provide an asterisk based graph denoting our branching hierarchy;
+
+13
+00:00:56,966 --> 00:01:02,733
+"--decorate", which will tell us which commits are a part of which branches
+
+14
+00:01:02,733 --> 00:01:07,366
+and other labels within the Git repository; and then "--all",
+
+15
+00:01:07,366 --> 00:01:12,466
+which will provide the history for all the branches that are available in this repository.
+
+16
+00:01:12,466 --> 00:01:17,900
+Let's press enter; now we have a radically different view of our "git log" command.
+
+17
+00:01:17,900 --> 00:01:23,166
+This is really my preferred view, and I look at is as a Git history,
+
+18
+00:01:23,166 --> 00:01:26,733
+although Git doesn't officially have a history command.
+
+19
+00:01:26,733 --> 00:01:30,066
+That doesn't actually stop us from creating one. Let's do that;
+
+20
+00:01:30,066 --> 00:01:34,166
+we're going to use something called Git aliases to do so.
+
+21
+00:01:34,166 --> 00:01:40,300
+To create a Git alias, which is basically a new command that is a shortened representation
+
+22
+00:01:40,300 --> 00:01:52,766
+of an existing longer command, we're going to piggyback off of Git's "config" command.
+
+23
+00:01:52,766 --> 00:02:00,500
+The syntax is "git config --global", because we want this alias to be
+
+24
+00:02:00,500 --> 00:02:07,833
+at the user level, not at the repo level; space; and then the config key "alias.";
+
+25
+00:02:07,833 --> 00:02:12,866
+then whatever name you want to use for your new command, in my case "hist";
+
+26
+00:02:12,866 --> 00:02:18,900
+space; and then, in double quotes, the command, leaving out the leading "git" command:
+
+27
+00:02:18,900 --> 00:02:22,000
+so, instead of "git log", you just start with "log",
+
+28
+00:02:22,000 --> 00:02:33,566
+so in double quotes, I have "log --oneline --graph --decorate --all".
+
+29
+00:02:33,566 --> 00:02:38,933
+Double check that line, and then press enter.
+
+30
+00:02:38,933 --> 00:02:43,333
+We can double check this entry made it in by listing Git's “config” entries;
+
+31
+00:02:43,333 --> 00:02:50,066
+"git config --global --list", then press enter.
+
+32
+00:02:50,066 --> 00:03:03,100
+And, at the very end, you see "alias.hist=log --oneline --graph --decorate --all".
+
+33
+00:03:03,100 --> 00:03:10,200
+Alright, let's test that out; to use an alias, just type "git"; space; and then the alias name,
+
+34
+00:03:10,200 --> 00:03:14,300
+in my case "hist", then press enter. If you were successful,
+
+35
+00:03:14,300 --> 00:03:21,533
+you should have the exact same output as the "log" command that we had previously.
+
+36
+00:03:21,533 --> 00:03:26,133
+Using aliases does not preclude you from passing additional parameters
+
+37
+00:03:26,133 --> 00:03:32,300
+to the underlying command. So, in this case, if I type "git hist", space,
+
+38
+00:03:32,300 --> 00:03:37,933
+and then the option "--", space, and then a file, then press enter,
+
+39
+00:03:37,933 --> 00:03:43,733
+the "hist" alias will pass the" -- filename" to the underlying "git log" command,
+
+40
+00:03:43,733 --> 00:03:50,400
+resulting in the "git log" pertaining only to the "LICENSE.md" file.
+
