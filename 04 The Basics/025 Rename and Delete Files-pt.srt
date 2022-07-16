@@ -1,0 +1,144 @@
+1
+00:00:00,000 --> 00:00:04,266
+Bem-vindo, neste vdeo, vamos renomear ou mover arquivos
+
+2
+00:00:04,266 --> 00:00:09,566
+e exclu-los usando o Git. Atualmente, estou no repositrio Git de "demo", no
+
+3
+00:00:09,566 --> 00:00:13,833
+master, sem nada para confirmar, pois temos um diretrio de trabalho limpo.
+
+4
+00:00:13,833 --> 00:00:17,266
+Bem, vamos mudar isso; vamos criar um novo arquivo.
+
+5
+00:00:17,266 --> 00:00:22,966
+Eu vou criar um arquivo chamado "exemplo. TXT".
+
+6
+00:00:22,966 --> 00:00:30,400
+Depois de salvar, fechar e voltar ao terminal, voc ver que temos um novo arquivo.
+
+7
+00:00:30,400 --> 00:00:39,566
+Agora, vamos adicionar o arquivo E agora vamos nos comprometer: "adicionando arquivo de exemplo".
+
+8
+00:00:39,566 --> 00:00:43,866
+Atualmente tenho o "exemplo. txt "arquivo no meu sistema de arquivos.
+
+9
+00:00:43,866 --> 00:00:46,866
+E se eu decidir que no gosto do nome desse arquivo?
+
+10
+00:00:46,866 --> 00:00:50,300
+Bem, eu posso realmente mud-lo usando os comandos do
+
+11
+00:00:50,300 --> 00:00:56,266
+Git, e isso oferece algumas vantagens extras sobre apenas mudar o arquivo dentro do sistema operacional.
+
+12
+00:00:56,266 --> 00:01:03,900
+Se eu digitar "git mv" para mover, vamos mover o arquivo para o novo nome.
+
+13
+00:01:03,900 --> 00:01:11,466
+Ento, estou mudando de "exemplo. txt "para" demo. txt ", efetivamente renomeando o arquivo.
+
+14
+00:01:11,466 --> 00:01:16,866
+Pressione Enter; com o Git, nenhuma notcia  uma boa notcia, ento vamos fazer um "status git".
+
+15
+00:01:16,866 --> 00:01:22,900
+O Git mostra que vai renomear "exemplo. txt "para" demo. txt ", mas esta
+
+16
+00:01:22,900 --> 00:01:28,233
+mudana  na verdade encenada, indicada por" Changes to be committed ".
+
+17
+00:01:28,233 --> 00:01:32,700
+Se fizermos um "ls", podemos ver que o
+
+18
+00:01:32,700 --> 00:01:39,966
+arquivo j foi renomeado no sistema operacional. Bem, para terminar a tarefa, precisamos realmente nos
+
+19
+00:01:39,966 --> 00:01:44,700
+comprometer; "git commit -m", com a mensagem de commit "renomeando exemplo".
+
+20
+00:01:44,700 --> 00:01:50,366
+timo, e dentro do commit ele mostra que ns renomeamos o arquivo "exemplo. txt ",
+
+21
+00:01:50,366 --> 00:01:56,066
+para" demo. txt ", com, entre parnteses, um" (100%) "nvel de confiana,
+
+22
+00:01:56,066 --> 00:01:59,700
+ou seja, o Git acha que esse  exatamente o mesmo arquivo.
+
+23
+00:01:59,700 --> 00:02:05,066
+Se tivssemos feito modificaes na "demonstrao. txt "arquivo antes de cometer, em seguida,
+
+24
+00:02:05,066 --> 00:02:08,133
+esse nvel teria sido inferior a 100%.
+
+25
+00:02:08,133 --> 00:02:12,000
+Mas, e se no quisssemos esse arquivo? Bem, ns poderamos remov-lo.
+
+26
+00:02:12,000 --> 00:02:16,433
+Em vez de remov-lo usando os recursos fornecidos pelo sistema
+
+27
+00:02:16,433 --> 00:02:20,933
+operacional, se usarmos o Git para fazer a remoo, obteremos
+
+28
+00:02:20,933 --> 00:02:25,233
+o benefcio extra de o Git rastrear automaticamente a excluso.
+
+29
+00:02:25,233 --> 00:02:32,600
+Fazendo um "ls", ns temos nossa "demonstrao. TXT". Ns digitamos "git rm" para remover,
+
+30
+00:02:32,600 --> 00:02:36,566
+ento nosso arquivo que queremos remover, ento podemos pressionar enter.
+
+31
+00:02:36,566 --> 00:02:40,466
+Diz-nos que a "demonstrao. txt "arquivo foi removido.
+
+32
+00:02:40,466 --> 00:02:45,566
+Se fizermos um ls, vemos que no temos mais a nossa "demonstrao". txt "file; no entanto, se fizermos
+
+33
+00:02:45,566 --> 00:02:50,800
+nosso" git status ", poderemos ver que nossa excluso foi apenas preparada.
+
+34
+00:02:50,800 --> 00:02:57,733
+Para concluir a excluso, precisamos fazer o commit: "git
+
+35
+00:02:57,733 --> 00:03:03,733
+commit -m" excluindo o arquivo de demonstrao "".
+
+36
+00:03:03,733 --> 00:03:08,066
+timo, estamos de volta a um diretrio de trabalho limpo.
+
