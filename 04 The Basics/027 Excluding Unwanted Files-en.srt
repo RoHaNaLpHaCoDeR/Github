@@ -1,0 +1,128 @@
+1
+00:00:00,000 --> 00:00:03,966
+In this video, we're going to look at ignoring files and folders
+
+2
+00:00:03,966 --> 00:00:07,700
+that we don't want tracked in our Git repository.
+
+3
+00:00:07,700 --> 00:00:12,266
+I'm currently in the "demo" Git repository; I'm on the master branch,
+
+4
+00:00:12,266 --> 00:00:16,500
+with nothing to commit, since I have a clean working directory.
+
+5
+00:00:16,500 --> 00:00:22,300
+Listing my files, I have a "LICENSE.txt" file, and a "README.md" file,
+
+6
+00:00:22,300 --> 00:00:26,033
+both files I want in my Git repository. But, I'm going to pretend
+
+7
+00:00:26,033 --> 00:00:31,166
+that this repository is part of an application that's contained within it,
+
+8
+00:00:31,166 --> 00:00:41,900
+and as it runs, it's generating logs. So, with my text editor open,
+
+9
+00:00:41,900 --> 00:00:54,033
+I'm just going to add some random lines to represent a log.
+
+10
+00:00:54,033 --> 00:00:56,366
+Alright, I'm going to save and close this file;
+
+11
+00:00:56,366 --> 00:01:00,300
+If I do an "ls", you can see I have my "application.log" file.
+
+12
+00:01:00,300 --> 00:01:05,666
+And, typically, we don't want to store log files, or any other files
+
+13
+00:01:05,666 --> 00:01:11,166
+that have been generated, or aren't original source that's part of this project.
+
+14
+00:01:11,166 --> 00:01:15,500
+If I do a "git status", Git sees that we have that "application.log" file.
+
+15
+00:01:15,500 --> 00:01:20,866
+And, while I could always try to remember to exclude that file when I'm doing my commits,
+
+16
+00:01:20,866 --> 00:01:24,000
+I know eventually I'll forget, and just add everything,
+
+17
+00:01:24,000 --> 00:01:27,400
+and that log file will end up in my Git repository.
+
+18
+00:01:27,400 --> 00:01:32,633
+Thankfully, Git provides a nice facility for excluding files and folders
+
+19
+00:01:32,633 --> 00:01:38,166
+we don't want in our Git repository; it's called a ".gitignore" file.
+
+20
+00:01:38,166 --> 00:01:45,400
+So, type "mate .gitignore", then press enter.
+
+21
+00:01:45,400 --> 00:01:54,733
+And, the syntax for this file is simply one pattern or expression per line.
+
+22
+00:01:54,733 --> 00:02:01,900
+I could specifically target that exact file, but more likely I want to target all log files,
+
+23
+00:02:01,900 --> 00:02:08,200
+so I'll use an expression instead; "*.log", which means any file
+
+24
+00:02:08,200 --> 00:02:13,866
+that ends with ".log" will be excluded. Let's save and then close.
+
+25
+00:02:13,866 --> 00:02:18,866
+Back at the terminal, you can see the ".gitignore" is already at work.
+
+26
+00:02:18,866 --> 00:02:23,700
+What you'll notice is that the ".gitignore" file, itself being a file,
+
+27
+00:02:23,700 --> 00:02:27,733
+needs to be tracked in the Git repository.
+
+28
+00:02:27,733 --> 00:02:31,733
+So, add the ".gitignore" file to the Git staging area.
+
+29
+00:02:31,733 --> 00:02:39,400
+"git commit -m", space, and then our commit message: "Adding ignore file".
+
+30
+00:02:39,400 --> 00:02:45,366
+Great, I'm back to a clean working directory, and our "application.log" file has been excluded.
+
+31
+00:02:45,366 --> 00:02:49,200
+It's still in the file system, but it's not in our Git repository.
+
+32
+00:02:49,200 --> 00:02:56,166
+For now, I'm going to go ahead and just remove the log file entirely.
+
