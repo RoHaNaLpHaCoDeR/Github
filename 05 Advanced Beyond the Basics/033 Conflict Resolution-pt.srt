@@ -1,0 +1,244 @@
+1
+00:00:00,000 --> 00:00:04,166
+Bem-vindo, neste vdeo, vamos percorrer as etapas necessrias para causar
+
+2
+00:00:04,166 --> 00:00:08,733
+um conflito e resolver esse conflito ao trabalhar com ramificaes.
+
+3
+00:00:08,733 --> 00:00:12,333
+No meu terminal, estou atualmente no repositrio Git "demo".
+
+4
+00:00:12,333 --> 00:00:17,866
+Eu estou no branch master, sem nada para commitar, j que estou em um diretrio de trabalho limpo.
+
+5
+00:00:17,866 --> 00:00:23,266
+Enquanto no branch master, vamos dar uma olhada no nosso arquivo Readme.
+
+6
+00:00:23,266 --> 00:00:27,966
+Tudo bem, ento temos nossas atualizaes que foram integradas do nosso exemplo anterior.
+
+7
+00:00:27,966 --> 00:00:33,900
+Ns podemos fechar fora daqui; vamos criar nosso ramo em que vamos trabalhar.
+
+8
+00:00:33,900 --> 00:00:38,266
+Eu vou criar um ramo chamado "muito ruim"; Agora mude para ele.
+
+9
+00:00:38,266 --> 00:00:41,933
+"git branch -a", que nos mostra todos os ramos; vemos
+
+10
+00:00:41,933 --> 00:00:45,933
+que temos nosso ramo "mestre" e nosso ramo "muito ruim".
+
+11
+00:00:45,933 --> 00:00:50,500
+E, neste ponto, nossa ramificao "muito ruim" tem o destaque verde
+
+12
+00:00:50,500 --> 00:00:54,633
+e o asterisco, indicando que esse  o ramo atual.
+
+13
+00:00:54,633 --> 00:01:00,233
+Vamos modificar nosso arquivo Leiame; vamos faz-lo de tal forma que causar um
+
+14
+00:01:00,233 --> 00:01:05,900
+conflito, o que significa atualizar a mesma parte do arquivo em ambas as ramificaes.
+
+15
+00:01:05,900 --> 00:01:10,866
+Ento, eu mudei essa linha para "Isto  obrigado a causar problemas! ".
+
+16
+00:01:10,866 --> 00:01:13,966
+Vamos em frente e salve e feche.
+
+17
+00:01:13,966 --> 00:01:21,133
+Eu vou usar minha tcnica de commit express, dizendo que  uma "atualizao muito ruim".
+
+18
+00:01:21,133 --> 00:01:28,066
+E temos "atualizao muito ruim" no topo, que  o ltimo commit.
+
+19
+00:01:28,066 --> 00:01:32,766
+Vamos voltar ao master, e antes de me fundir
+
+20
+00:01:32,766 --> 00:01:36,733
+nessas mudanas, vou fingir ser outro desenvolvedor, ou
+
+21
+00:01:36,733 --> 00:01:41,700
+talvez eu esquea as mudanas que fiz no branch "very-bad".
+
+22
+00:01:41,700 --> 00:01:47,066
+Vou modificar nosso arquivo Leiame exatamente no mesmo local.
+
+23
+00:01:47,066 --> 00:01:52,000
+Mude isso para "Espero que isso no seja um grande problema", salve e feche.
+
+24
+00:01:52,000 --> 00:01:58,066
+De volta ao terminal, novamente, outro compromisso expresso: "Causando problemas novamente".
+
+25
+00:01:58,066 --> 00:02:04,366
+Agora, vamos mesclar nosso branch "muito ruim" em nosso branch master.
+
+26
+00:02:04,366 --> 00:02:11,133
+Vamos nos lembrar dos nomes das nossas filiais. "git merge very-bad"; e, como esperado,
+
+27
+00:02:11,133 --> 00:02:15,900
+a mesclagem automtica no conseguiu resolver o conflito.
+
+28
+00:02:15,900 --> 00:02:20,100
+A mesclagem automtica  muito boa, mas no  perfeita, e no consegue
+
+29
+00:02:20,100 --> 00:02:23,766
+ler mentes, por isso no sabe qual verso de nosso arquivo queremos.
+
+30
+00:02:23,766 --> 00:02:29,600
+Isso nos coloca em um estado de mesclagem, que  indicado por nosso prompt de
+
+31
+00:02:29,600 --> 00:02:34,033
+comando com o nome da ramificao em um lado e "| MERGING".
+
+32
+00:02:34,033 --> 00:02:38,400
+O "README. md "file  o arquivo que est
+
+33
+00:02:38,400 --> 00:02:42,966
+implicado no conflito de mesclagem; se" cat "for o arquivo, que apenas mostra todo
+
+34
+00:02:42,966 --> 00:02:49,566
+o contedo desse arquivo, a verso atual tem essas cenouras estranhas que denotam as partes do arquivo que esto em conflito.
+
+35
+00:02:49,566 --> 00:02:52,633
+E voc pode ver "CABEA" versus "muito ruim".
+
+36
+00:02:52,633 --> 00:02:58,333
+Como esse  um caso muito simples, poderamos modificar manualmente esse arquivo; temos
+
+37
+00:02:58,333 --> 00:03:03,033
+uma ferramenta de mesclagem configurada com o Git, ento vamos us-la.
+
+38
+00:03:03,033 --> 00:03:11,833
+Enquanto estiver em um estado de mesclagem, apenas digite "git mergetool" e pressione enter.
+
+39
+00:03:11,833 --> 00:03:17,066
+E o P4Merge  lanado com uma fuso de trs vias em andamento;
+
+40
+00:03:17,066 --> 00:03:21,500
+e, podemos ver que temos as vrias verses do nosso arquivo
+
+41
+00:03:21,500 --> 00:03:23,900
+e a possvel soluo na parte inferior.
+
+42
+00:03:23,900 --> 00:03:28,166
+Qualquer nmero dessas possveis solues pode ser incorporado; Digamos
+
+43
+00:03:28,166 --> 00:03:32,500
+que eu goste desse. Quando terminar, preciso clicar no boto
+
+44
+00:03:32,500 --> 00:03:35,566
+salvar para salvar as alteraes feitas no arquivo Leiame.
+
+45
+00:03:35,566 --> 00:03:39,833
+Agora, uma vez que eu fiz isso, e no tenho mais conflitos
+
+46
+00:03:39,833 --> 00:03:43,133
+para resolver, posso sair do P4Merge: command + q.
+
+47
+00:03:43,133 --> 00:03:46,333
+Se no houver mais arquivos com conflitos de mesclagem,
+
+48
+00:03:46,333 --> 00:03:48,966
+voc simplesmente retornar ao prompt de comando.
+
+49
+00:03:48,966 --> 00:03:54,200
+Para completar a mesclagem, precisamos confirmar o que ns salvamos: "git commit -m",
+
+50
+00:03:54,200 --> 00:03:58,800
+podemos passar a nossa mensagem de commit: "Resolving conflict", ento aperte enter.
+
+51
+00:03:58,800 --> 00:04:01,300
+Se isso resolver com sucesso o conflito, voc
+
+52
+00:04:01,300 --> 00:04:04,733
+retornar a um prompt de comando que parece mais normal.
+
+53
+00:04:04,733 --> 00:04:09,200
+Nesse caso, voltamos ao nome da nossa agncia, simplesmente entre parnteses.
+
+54
+00:04:09,200 --> 00:04:14,400
+Se fizermos um "status git", podemos ver que temos um ". orig "arquivo que no foi rastreado.
+
+55
+00:04:14,400 --> 00:04:17,766
+". orig " a verso original do arquivo Leiame.
+
+56
+00:04:17,766 --> 00:04:21,533
+Bem, eu no gosto ". arquivos originais em meu repositrio
+
+57
+00:04:21,533 --> 00:04:25,866
+Git que eu acidentalmente poderia adicionar de volta ao meu repositrio.
+
+58
+00:04:25,866 --> 00:04:33,300
+Vamos adicionar isso de volta ao nosso ". gitignore ".
+
+59
+00:04:33,300 --> 00:04:39,700
+Vamos fazer o nosso commit expresso: "atualizar ignorar para excluir arquivos de mesclagem".
+
+60
+00:04:39,700 --> 00:04:42,333
+timo, ento ainda temos isso ". "Eu realmente no
+
+61
+00:04:42,333 --> 00:04:50,666
+gosto desse cara por a, ento eu vou deletar ele. timo.
+

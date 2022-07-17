@@ -1,0 +1,132 @@
+1
+00:00:00,000 --> 00:00:06,733
+Bem-vindo, neste vdeo, vamos ver as tags do Git.
+
+2
+00:00:06,733 --> 00:00:10,600
+Eu estou atualmente no repositrio Git "demo", e estamos
+
+3
+00:00:10,600 --> 00:00:13,666
+no branch master sem nada para confirmar.
+
+4
+00:00:13,666 --> 00:00:19,233
+Se eu fizer um "git hist", voc pode ver que temos vrios commits que fazem parte deste repositrio.
+
+5
+00:00:19,233 --> 00:00:23,566
+E, neste momento, estamos trabalhando com o repositrio h um bom tempo.
+
+6
+00:00:23,566 --> 00:00:28,466
+Ento, gostaria de marcar este ponto no repositrio com algum tipo de marco.
+
+7
+00:00:28,466 --> 00:00:31,533
+Para fazer isso, o Git suporta uma noo de tags.
+
+8
+00:00:31,533 --> 00:00:36,766
+Tags so apenas rtulos que voc pode colocar em qualquer ponto de commit arbitrrio
+
+9
+00:00:36,766 --> 00:00:42,733
+e, por padro, se voc no especificar um commit, ser o commit atual ou HEAD.
+
+10
+00:00:42,733 --> 00:00:48,466
+E existem dois tipos de tags; tags leves, que voc pode simplesmente dar
+
+11
+00:00:48,466 --> 00:00:56,166
+um nome, e o Git cria para voc. Se voc fizer uma "lista de tags do git", ver que minha tag est listada.
+
+12
+00:00:56,166 --> 00:01:02,500
+Alm disso, quando fazemos nosso comando "git hist", vemos "tag: mytag".
+
+13
+00:01:02,500 --> 00:01:06,366
+Agora, esta  uma tag leve; no h informaes associadas a ele.
+
+14
+00:01:06,366 --> 00:01:10,000
+O que eu prefiro usar  o que chamamos de tags
+
+15
+00:01:10,000 --> 00:01:13,933
+anotadas, o que significa que elas tm informaes extras associadas  tag.
+
+16
+00:01:13,933 --> 00:01:21,300
+Ento, antes de fazermos isso, vamos deletar "mytag"; digite "git tag -d" para excluir e, em seguida, o nome da tag.
+
+17
+00:01:21,300 --> 00:01:23,566
+timo, exclumos essa tag.
+
+18
+00:01:23,566 --> 00:01:32,100
+Se usarmos a sintaxe "git tag -a", para tag anotada; ento o nome da tag "v1. 0 "; then" -m "; seguido por, entre
+
+19
+00:01:32,100 --> 00:01:36,533
+aspas duplas, uma mensagem de confirmao: efetivamente, estamos associando
+
+20
+00:01:36,533 --> 00:01:40,233
+uma mensagem de confirmao a essa tag.
+
+21
+00:01:40,233 --> 00:01:45,466
+Verifique novamente e, em seguida, pressione enter; geralmente nenhuma notcia  uma boa notcia.
+
+22
+00:01:45,466 --> 00:01:52,066
+"git tag --list"; ns temos nossa "v1. 0 "tag.
+
+23
+00:01:52,066 --> 00:01:59,066
+E vemos que temos nossa "tag: v1. 0 "mencionado em nosso histrico de commits, mas at
+
+24
+00:01:59,066 --> 00:02:02,400
+agora no vimos nada diferente de nossa tag lightweight.
+
+25
+00:02:02,400 --> 00:02:04,566
+Ento, onde entra a anotao?
+
+26
+00:02:04,566 --> 00:02:09,366
+Bem, se usarmos o comando "git show", especifique o nome da nossa
+
+27
+00:02:09,366 --> 00:02:13,066
+tag, "git show v1. 0 ", em seguida, pressione enter,
+
+28
+00:02:13,066 --> 00:02:18,100
+ele nos mostra que temos a nossa tag", v1. 0 "; o tagger, que  eu mesmo;
+
+29
+00:02:18,100 --> 00:02:22,600
+a data em que ele foi marcado; a cotao na mensagem de confirmao de cotao
+
+30
+00:02:22,600 --> 00:02:26,833
+que acompanha essa tag; seguida pelo restante das informaes da confirmao associadas a essa
+
+31
+00:02:26,833 --> 00:02:29,733
+tag, incluindo sua prpria mensagem de confirmao de antes.
+
+32
+00:02:29,733 --> 00:02:33,266
+Isso  realmente til quando voc est tentando
+
+33
+00:02:33,266 --> 00:02:38,466
+observar os principais marcos e talvez queira associar algumas informaes a ele.
+

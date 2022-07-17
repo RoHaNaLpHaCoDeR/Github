@@ -1,0 +1,132 @@
+1
+00:00:00,000 --> 00:00:06,733
+Welcome, in this video, we're going to look at Git tags.
+
+2
+00:00:06,733 --> 00:00:10,600
+I'm currently in the "demo" Git repository,
+
+3
+00:00:10,600 --> 00:00:13,666
+and we're on the master branch with nothing to commit.
+
+4
+00:00:13,666 --> 00:00:19,233
+If I do a "git hist", you can see that we have several commits that are part of this repository.
+
+5
+00:00:19,233 --> 00:00:23,566
+And, at this point, we've been working with the repository for a pretty good long time.
+
+6
+00:00:23,566 --> 00:00:28,466
+So, I'd like to mark this point in the repository with some type of milestone.
+
+7
+00:00:28,466 --> 00:00:31,533
+To do that, Git supports a notion of tags.
+
+8
+00:00:31,533 --> 00:00:36,766
+Tags are just labels that you can put at any arbitrary commit point,
+
+9
+00:00:36,766 --> 00:00:42,733
+and, by default, if you don't specify a commit, it will be the current commit or HEAD.
+
+10
+00:00:42,733 --> 00:00:48,466
+And, there are two types of tags; lightweight tags, which you can just give a name,
+
+11
+00:00:48,466 --> 00:00:56,166
+and Git creates it for you. If you do a "git tag --list", you can see that my tag is listed.
+
+12
+00:00:56,166 --> 00:01:02,500
+Also, when we do our "git hist" command, we see "tag: mytag".
+
+13
+00:01:02,500 --> 00:01:06,366
+Now, this is a lightweight tag; there's no associated information with it.
+
+14
+00:01:06,366 --> 00:01:10,000
+What I prefer using are what's called annotated tags,
+
+15
+00:01:10,000 --> 00:01:13,933
+which means they have extra information associated with the tag.
+
+16
+00:01:13,933 --> 00:01:21,300
+So, before we do that, let's delete "mytag"; type "git tag -d" for delete, then the tag name.
+
+17
+00:01:21,300 --> 00:01:23,566
+Great, we've deleted that tag.
+
+18
+00:01:23,566 --> 00:01:32,100
+If we use the syntax "git tag -a", for annotated tag; then the tag name "v1.0";
+
+19
+00:01:32,100 --> 00:01:36,533
+then "-m"; followed by, in double quotes, a commit message:
+
+20
+00:01:36,533 --> 00:01:40,233
+effectively, we're associating a commit message with this tag.
+
+21
+00:01:40,233 --> 00:01:45,466
+Double check, and then press enter; usually no news is good news.
+
+22
+00:01:45,466 --> 00:01:52,066
+"git tag --list"; we have our "v1.0" tag.
+
+23
+00:01:52,066 --> 00:01:59,066
+And we see that we have our "tag: v1.0" mentioned in our commit history,
+
+24
+00:01:59,066 --> 00:02:02,400
+but so far we haven't seen anything different than our lightweight tag.
+
+25
+00:02:02,400 --> 00:02:04,566
+So, where does the annotation come in?
+
+26
+00:02:04,566 --> 00:02:09,366
+Well, if we use our "git show" command, and then specify our tag name,
+
+27
+00:02:09,366 --> 00:02:13,066
+"git show v1.0", then press enter,
+
+28
+00:02:13,066 --> 00:02:18,100
+it shows us that we have our tag, "v1.0"; the tagger, which is myself;
+
+29
+00:02:18,100 --> 00:02:22,600
+the date that it was tagged; the quote on quote commit message that goes with that tag;
+
+30
+00:02:22,600 --> 00:02:26,833
+followed by the rest of the information for that commit that's associated with that tag,
+
+31
+00:02:26,833 --> 00:02:29,733
+including its own commit message from before.
+
+32
+00:02:29,733 --> 00:02:33,266
+This is really useful when you're trying to note major milestones
+
+33
+00:02:33,266 --> 00:02:38,466
+and you might want to associate some information with it.
+

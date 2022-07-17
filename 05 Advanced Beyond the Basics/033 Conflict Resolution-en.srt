@@ -1,0 +1,244 @@
+1
+00:00:00,000 --> 00:00:04,166
+Welcome, in this video, we're going to walk through the steps necessary
+
+2
+00:00:04,166 --> 00:00:08,733
+to cause a conflict, and then resolve that conflict when working with branches.
+
+3
+00:00:08,733 --> 00:00:12,333
+In my terminal, I'm currently in the "demo" Git repository.
+
+4
+00:00:12,333 --> 00:00:17,866
+I'm on the master branch, with nothing to commit, since I'm in a clean working directory.
+
+5
+00:00:17,866 --> 00:00:23,266
+While on the master branch, let's take a look at our Readme file.
+
+6
+00:00:23,266 --> 00:00:27,966
+Alright, so we have our updates that were integrated from our previous example.
+
+7
+00:00:27,966 --> 00:00:33,900
+We can close out of here; let's create our branch that we're going to work on.
+
+8
+00:00:33,900 --> 00:00:38,266
+I'm going to create a branch called "very-bad"; now switch to it.
+
+9
+00:00:38,266 --> 00:00:41,933
+"git branch -a", which shows us all branches;
+
+10
+00:00:41,933 --> 00:00:45,933
+we see that we have our "master" branch, and our "very-bad" branch.
+
+11
+00:00:45,933 --> 00:00:50,500
+And, at this point, our "very-bad" branch has the green highlighting
+
+12
+00:00:50,500 --> 00:00:54,633
+and the asterisk, denoting this is the current branch.
+
+13
+00:00:54,633 --> 00:01:00,233
+Let's modify our Readme file; let's do it in such a way that will cause a conflict,
+
+14
+00:01:00,233 --> 00:01:05,900
+which means updating the same part of the file on both branches.
+
+15
+00:01:05,900 --> 00:01:10,866
+So, I changed that line to "This is bound to cause trouble!".
+
+16
+00:01:10,866 --> 00:01:13,966
+Let's go ahead and save and close.
+
+17
+00:01:13,966 --> 00:01:21,133
+I'm going to use my express commit technique, saying it's a "very bad update".
+
+18
+00:01:21,133 --> 00:01:28,066
+And, we have "very bad update" at the very top, which is the last commit.
+
+19
+00:01:28,066 --> 00:01:32,766
+Let's return back to master, and before I merge in those changes
+
+20
+00:01:32,766 --> 00:01:36,733
+I'm going to pretend to be another developer, or perhaps I'll just forget
+
+21
+00:01:36,733 --> 00:01:41,700
+about those changes that I made on the "very-bad" branch.
+
+22
+00:01:41,700 --> 00:01:47,066
+I'll modify our Readme file exactly in the same location.
+
+23
+00:01:47,066 --> 00:01:52,000
+Change that to "I hope this isn't much of a problem", save and close.
+
+24
+00:01:52,000 --> 00:01:58,066
+Back at the terminal, again, another express commit: "Causing issues again".
+
+25
+00:01:58,066 --> 00:02:04,366
+Now, let's merge our "very-bad" branch into our master branch.
+
+26
+00:02:04,366 --> 00:02:11,133
+Let's remind ourselves of our branch names. "git merge very-bad";
+
+27
+00:02:11,133 --> 00:02:15,900
+and, as expected, the auto-merging was unable to resolve the conflict.
+
+28
+00:02:15,900 --> 00:02:20,100
+Auto merging's pretty good, but it's not perfect, and it can't read minds,
+
+29
+00:02:20,100 --> 00:02:23,766
+so it doesn't know which version of our file we want.
+
+30
+00:02:23,766 --> 00:02:29,600
+This places us in a merging state, which is denoted by our command prompt
+
+31
+00:02:29,600 --> 00:02:34,033
+with the branch name on one side, and "|MERGING".
+
+32
+00:02:34,033 --> 00:02:38,400
+The "README.md" file is the file that's implicated in the merge conflict;
+
+33
+00:02:38,400 --> 00:02:42,966
+if we "cat" the file, which just outputs the entire contents of that file,
+
+34
+00:02:42,966 --> 00:02:49,566
+the current version has these weird carrots that denote the parts of the file that are conflicted.
+
+35
+00:02:49,566 --> 00:02:52,633
+And, you can see that "HEAD" versus "very-bad".
+
+36
+00:02:52,633 --> 00:02:58,333
+Since this happens to be a very simple case, we could manually modify this file;
+
+37
+00:02:58,333 --> 00:03:03,033
+we have a merge tool configured with Git, so let's use it.
+
+38
+00:03:03,033 --> 00:03:11,833
+While in a merging state, just type "git mergetool", then press enter.
+
+39
+00:03:11,833 --> 00:03:17,066
+And, P4Merge launches with a three-way merge in progress;
+
+40
+00:03:17,066 --> 00:03:21,500
+and, we can see that we have the various versions of our file,
+
+41
+00:03:21,500 --> 00:03:23,900
+and the possible solution at the bottom.
+
+42
+00:03:23,900 --> 00:03:28,166
+Any number of these possible solutions can be incorporated;
+
+43
+00:03:28,166 --> 00:03:32,500
+let's say I like that one. Once I'm done, I need to click the save button
+
+44
+00:03:32,500 --> 00:03:35,566
+in order to save those changes that I've made to the Readme file.
+
+45
+00:03:35,566 --> 00:03:39,833
+Now, once I've done that, and I have no further conflicts to resolve,
+
+46
+00:03:39,833 --> 00:03:43,133
+I can quit P4Merge: command+q.
+
+47
+00:03:43,133 --> 00:03:46,333
+If there are no more files with merge conflicts,
+
+48
+00:03:46,333 --> 00:03:48,966
+then you'll simply return back to the command prompt.
+
+49
+00:03:48,966 --> 00:03:54,200
+To complete the merge, we need to commit what we've saved: "git commit -m",
+
+50
+00:03:54,200 --> 00:03:58,800
+we can pass in our commit message: "Resolving conflict", then press enter.
+
+51
+00:03:58,800 --> 00:04:01,300
+If that successfully resolves the conflict,
+
+52
+00:04:01,300 --> 00:04:04,733
+you'll be returned back to a command prompt that looks more normal.
+
+53
+00:04:04,733 --> 00:04:09,200
+In this case, we're back to our branch name, simply in parenthesis.
+
+54
+00:04:09,200 --> 00:04:14,400
+If we do a "git status", we can see we have a ".orig" file that is untracked.
+
+55
+00:04:14,400 --> 00:04:17,766
+".orig" is the original version of the Readme file.
+
+56
+00:04:17,766 --> 00:04:21,533
+Well, I don't like ".orig" files lying around in my Git repository
+
+57
+00:04:21,533 --> 00:04:25,866
+that I might accidentally add back to my repository.
+
+58
+00:04:25,866 --> 00:04:33,300
+Let's add this back to our ".gitignore".
+
+59
+00:04:33,300 --> 00:04:39,700
+Let's do our express commit: "updating ignore to exclude merge files".
+
+60
+00:04:39,700 --> 00:04:42,333
+Great, so we still have that ".orig" file;
+
+61
+00:04:42,333 --> 00:04:50,666
+I really don't like that guy hanging around, so I'm just going to delete him. Great.
+

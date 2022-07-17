@@ -1,0 +1,112 @@
+1
+00:00:00,000 --> 00:00:07,166
+Welcome, in this video, we're going to take a quick look at stashing.
+
+2
+00:00:07,166 --> 00:00:11,200
+I'm currently in the "demo" Git repository, on the master branch,
+
+3
+00:00:11,200 --> 00:00:19,933
+in a clean working directory. Let's modify the "README.md" file.
+
+4
+00:00:19,933 --> 00:00:23,633
+And, doing a "git status" we see we have our modified file.
+
+5
+00:00:23,633 --> 00:00:28,166
+But, what if we decide that we're really not supposed to be doing that right now?
+
+6
+00:00:28,166 --> 00:00:31,933
+What if we decide that we really should have started this on a branch,
+
+7
+00:00:31,933 --> 00:00:36,333
+or maybe we need to change content and work on something else for a while?
+
+8
+00:00:36,333 --> 00:00:40,266
+Well, we can do that by using Git's stashing ability.
+
+9
+00:00:40,266 --> 00:00:45,200
+Alright, so let's do that; do a "git stash", and it tells me that the HEAD was saved,
+
+10
+00:00:45,200 --> 00:00:48,266
+which is the last commit on the current branch, which is master.
+
+11
+00:00:48,266 --> 00:00:52,400
+And, it saved it in a work in progress.
+
+12
+00:00:52,400 --> 00:00:56,433
+If we do a "git stash list", it shows us our stashes.
+
+13
+00:00:56,433 --> 00:01:00,166
+We have a "WIP on master", and it shows us the last commit,
+
+14
+00:01:00,166 --> 00:01:03,500
+and the associated commit message.
+
+15
+00:01:03,500 --> 00:01:08,700
+After the "stash", we're actually back on a clean working directory.
+
+16
+00:01:08,700 --> 00:01:17,333
+Let's apply our "emergency fix" if you will; save and close.
+
+17
+00:01:17,333 --> 00:01:24,733
+"updating the license file"; this will qualify as our interruption that we had to take care of.
+
+18
+00:01:24,733 --> 00:01:28,000
+Back to a clean working directory.
+
+19
+00:01:28,000 --> 00:01:32,333
+Now, let's apply our stash; do a "git stash pop".
+
+20
+00:01:32,333 --> 00:01:38,433
+So, that will do two actions at once; one is an "apply", and then the next is a "drop".
+
+21
+00:01:38,433 --> 00:01:43,033
+The "stash apply" will apply whatever the stash is: the last stash.
+
+22
+00:01:43,033 --> 00:01:46,600
+In this case, we put those changes back in the Readme file,
+
+23
+00:01:46,600 --> 00:01:51,633
+then, after that, it dropped that stash that was applied.
+
+24
+00:01:51,633 --> 00:01:56,233
+Now, if I do a "git stash list", I have no results.
+
+25
+00:01:56,233 --> 00:01:58,000
+If I go back to the "README.md" file,
+
+26
+00:01:58,000 --> 00:02:06,033
+you can see the Readme file was updated like it was prior to the stash.
+
+27
+00:02:06,033 --> 00:02:12,000
+Let's move forward by committing our update: "updating readme again".
+
+28
+00:02:12,000 --> 00:02:17,466
+Back to a clean working directory, and we're done.
+

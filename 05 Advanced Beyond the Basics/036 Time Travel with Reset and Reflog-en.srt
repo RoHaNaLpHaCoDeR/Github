@@ -1,0 +1,264 @@
+1
+00:00:00,000 --> 00:00:08,400
+Welcome, in this video, we're going to do a little bit of time travel with "reset" and "reflog".
+
+2
+00:00:08,400 --> 00:00:12,600
+I'm currently in the "demo" Git repository, and I'm currently on master,
+
+3
+00:00:12,600 --> 00:00:15,633
+with nothing to commit since I have a clean working directory.
+
+4
+00:00:15,633 --> 00:00:24,966
+Let's take care of that; in another line, I'm going to put "Updates in stage".
+
+5
+00:00:24,966 --> 00:00:33,733
+So, I did the "git add" to add that Readme file change to stage,
+
+6
+00:00:33,733 --> 00:00:39,300
+and then I put another line to denote some changes that we have in our working directory.
+
+7
+00:00:39,300 --> 00:00:44,300
+If we do a "git status", we see we have our modifications detected,
+
+8
+00:00:44,300 --> 00:00:48,133
+in both the staging area, and just in our working directory.
+
+9
+00:00:48,133 --> 00:00:52,233
+Now, there may be times when you need to go to a different commit point;
+
+10
+00:00:52,233 --> 00:00:57,166
+if you made a mistake in the last commit, for example, that you didn't need to have committed.
+
+11
+00:00:57,166 --> 00:01:01,900
+You want to roll back to a previous commit; that's certainly fine.
+
+12
+00:01:01,900 --> 00:01:08,200
+Do a "git hist"; you can see we have several commits to choose from.
+
+13
+00:01:08,200 --> 00:01:14,000
+So, I'm going to do a "git reset"; I'm passing in the commit id that I want to reset to.
+
+14
+00:01:14,000 --> 00:01:16,766
+And, the option "--soft".
+
+15
+00:01:16,766 --> 00:01:21,633
+And, the reason I'm doing that, there are actually 3 distinct ways of resetting:
+
+16
+00:01:21,633 --> 00:01:24,766
+there is a soft reset, which is what I'm about to do;
+
+17
+00:01:24,766 --> 00:01:28,833
+there's the default, which is called mixed; and then there is hard.
+
+18
+00:01:28,833 --> 00:01:32,933
+The soft reset is the least destructive of them all;
+
+19
+00:01:32,933 --> 00:01:36,300
+basically, all it does is change where HEAD is pointing.
+
+20
+00:01:36,300 --> 00:01:39,400
+So, let's try that out; usually no news is good news.
+
+21
+00:01:39,400 --> 00:01:45,700
+Make a note of where HEAD is pointing to right now, which is "67b1242".
+
+22
+00:01:45,700 --> 00:01:53,200
+If we do a "git hist', as expected, HEAD is now pointing to "ce2c810",
+
+23
+00:01:53,200 --> 00:01:56,633
+which is the commit id that we passed in to the reset command.
+
+24
+00:01:56,633 --> 00:02:01,900
+Let's check out our "git status"; we have files that have been modified,
+
+25
+00:02:01,900 --> 00:02:05,633
+and in our staging area. That's what soft allows us to do,
+
+26
+00:02:05,633 --> 00:02:09,866
+is simply change the commit id that head is pointing to,
+
+27
+00:02:09,866 --> 00:02:14,866
+which means it preserves the Git staging area, and our working directory.
+
+28
+00:02:14,866 --> 00:02:19,033
+Effectively, we can back out our changes, make minor modifications to them,
+
+29
+00:02:19,033 --> 00:02:21,800
+and then commit where head is currently pointing.
+
+30
+00:02:21,800 --> 00:02:32,500
+Let's try this another time; I'm going to choose the commit id "6ad74df".
+
+31
+00:02:32,500 --> 00:02:36,766
+And, although "mixed" should be default, there's no harm in specifying it
+
+32
+00:02:36,766 --> 00:02:39,900
+just to make sure for our example; let's go ahead and press enter.
+
+33
+00:02:39,900 --> 00:02:43,800
+Now, what's interesting, it actually unstaged the number of changes.
+
+34
+00:02:43,800 --> 00:02:51,766
+If we do a "git hist", we can see that HEAD is now pointing to "6ad74df".
+
+35
+00:02:51,766 --> 00:02:56,366
+If we do a "git status", we have several files that have been unstaged,
+
+36
+00:02:56,366 --> 00:03:01,566
+and placed into our working directory; there's nothing in our staging area.
+
+37
+00:03:01,566 --> 00:03:07,100
+Let's try this one last time. Now type "git reset", followed by the commit id:
+
+38
+00:03:07,100 --> 00:03:17,000
+I'm using "d444e90 --hard". This is the most destructive of all the reset modes.
+
+39
+00:03:17,000 --> 00:03:21,700
+Now, press enter. It simply tells us that our HEAD is now at a new location;
+
+40
+00:03:21,700 --> 00:03:26,833
+if we do a "git status", we see that our working directory is now clean,
+
+41
+00:03:26,833 --> 00:03:29,733
+which means that any changes that were pending have been wiped out,
+
+42
+00:03:29,733 --> 00:03:32,900
+along with anything that was in the staging area.
+
+43
+00:03:32,900 --> 00:03:37,200
+Again, a hard reset is the most destructive type of a reset.
+
+44
+00:03:37,200 --> 00:03:40,200
+Apart from the handful of changes we made at the very beginning,
+
+45
+00:03:40,200 --> 00:03:42,300
+we really haven't lost a whole lot.
+
+46
+00:03:42,300 --> 00:03:47,633
+And, you're thinking; well, if we do a "git hist", our head is now pointing all the way down
+
+47
+00:03:47,633 --> 00:03:51,500
+to the second commit in our history.
+
+48
+00:03:51,500 --> 00:03:56,533
+If we just do "git log --oneline", that is we leave out the "--all",
+
+49
+00:03:56,533 --> 00:03:59,600
+we see we only have two commits being listed.
+
+50
+00:03:59,600 --> 00:04:03,400
+So, if you see this list of history, then you might be a little worried;
+
+51
+00:04:03,400 --> 00:04:08,200
+that's ok, because there's another command we can use in conjunction with reset
+
+52
+00:04:08,200 --> 00:04:13,166
+that makes things a lot better, it's called "reflog".
+
+53
+00:04:13,166 --> 00:04:17,900
+Although both "git log" and "git reflog" share similar sounding names,
+
+54
+00:04:17,900 --> 00:04:22,500
+"git log" shows us our commit ids, and "git reflog" shows us
+
+55
+00:04:22,500 --> 00:04:26,400
+all the different actions we've taken while in this repository.
+
+56
+00:04:26,400 --> 00:04:31,466
+This allows us to get all the way back to a specific commit id if we need to.
+
+57
+00:04:31,466 --> 00:04:34,666
+For example, let's go to "head@{3}",
+
+58
+00:04:34,666 --> 00:04:42,733
+which is the last commit before we did any resets; that's "67b1242".
+
+59
+00:04:42,733 --> 00:04:46,566
+I'm going to copy that commit id, do a "git reset";
+
+60
+00:04:46,566 --> 00:04:50,533
+at this point, since there's no pending work, we can leave it at the default,
+
+61
+00:04:50,533 --> 00:04:55,466
+or we can specify hard; then paste in our commit id; and then press enter.
+
+62
+00:04:55,466 --> 00:05:01,733
+We've now moved our commit id back. Do a "git log --oneline";
+
+63
+00:05:01,733 --> 00:05:08,066
+looks like we have our history back again. And using our "git hist" alias,
+
+64
+00:05:08,066 --> 00:05:13,633
+we can see our Git history looks like the repo prior to doing any of the resets.
+
+65
+00:05:13,633 --> 00:05:18,933
+Using "reset"+"reflog" really does provide you full control
+
+66
+00:05:18,933 --> 00:05:23,300
+over time travel within your Git repository.
+

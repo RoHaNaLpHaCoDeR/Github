@@ -1,0 +1,112 @@
+1
+00:00:00,000 --> 00:00:07,166
+Bem-vindo, neste vdeo, vamos dar uma rpida olhada no stashing.
+
+2
+00:00:07,166 --> 00:00:11,200
+Eu estou atualmente no repositrio Git "demo", no branch
+
+3
+00:00:11,200 --> 00:00:19,933
+master, em um diretrio de trabalho limpo. Vamos modificar o "README. md "file.
+
+4
+00:00:19,933 --> 00:00:23,633
+E, fazendo um "status git", vemos que temos nosso arquivo modificado.
+
+5
+00:00:23,633 --> 00:00:28,166
+Mas, e se decidirmos que no deveramos fazer isso agora?
+
+6
+00:00:28,166 --> 00:00:31,933
+E se decidirmos que deveramos ter comeado isso em uma ramificao ou
+
+7
+00:00:31,933 --> 00:00:36,333
+talvez precisssemos alterar o contedo e trabalhar em outra coisa por um tempo?
+
+8
+00:00:36,333 --> 00:00:40,266
+Bem, podemos fazer isso usando a habilidade de stash do Git.
+
+9
+00:00:40,266 --> 00:00:45,200
+Tudo bem, ento vamos fazer isso; faa um "git stash", e ele me diz que o HEAD foi salvo,
+
+10
+00:00:45,200 --> 00:00:48,266
+que  o ltimo commit no branch atual, que  master.
+
+11
+00:00:48,266 --> 00:00:52,400
+E salvou em um trabalho em andamento.
+
+12
+00:00:52,400 --> 00:00:56,433
+Se fizermos uma "lista de stit git", nos mostra os nossos stashes.
+
+13
+00:00:56,433 --> 00:01:00,166
+Temos um "WIP on master", e nos mostra o
+
+14
+00:01:00,166 --> 00:01:03,500
+ltimo commit e a mensagem de commit associada.
+
+15
+00:01:03,500 --> 00:01:08,700
+Depois do "stash", estamos de volta a um diretrio de trabalho limpo.
+
+16
+00:01:08,700 --> 00:01:17,333
+Vamos aplicar nossa "correo de emergncia" se voc quiser; salvar e fechar.
+
+17
+00:01:17,333 --> 00:01:24,733
+"atualizando o arquivo de licena"; isso se qualifica como nossa interrupo que tivemos que resolver.
+
+18
+00:01:24,733 --> 00:01:28,000
+Volte para um diretrio de trabalho limpo.
+
+19
+00:01:28,000 --> 00:01:32,333
+Agora, vamos aplicar nosso stash; faa um "git stash pop".
+
+20
+00:01:32,333 --> 00:01:38,433
+Ento, isso far duas aes ao mesmo tempo; um  um "aplicar" e, em seguida, o prximo  um "drop".
+
+21
+00:01:38,433 --> 00:01:43,033
+O "stash apply" aplica-se a qualquer que seja o stash: o ltimo stash.
+
+22
+00:01:43,033 --> 00:01:46,600
+Nesse caso, colocamos essas alteraes de volta no
+
+23
+00:01:46,600 --> 00:01:51,633
+arquivo Leiame e, depois disso, descartamos o stash que foi aplicado.
+
+24
+00:01:51,633 --> 00:01:56,233
+Agora, se eu fizer um "git stash list", no tenho resultados.
+
+25
+00:01:56,233 --> 00:01:58,000
+Se eu voltar para o "README". md
+
+26
+00:01:58,000 --> 00:02:06,033
+"arquivo, voc pode ver o arquivo Leiame foi atualizado como era antes do stash.
+
+27
+00:02:06,033 --> 00:02:12,000
+Vamos seguir em frente, confirmando nossa atualizao: "atualizando readme novamente".
+
+28
+00:02:12,000 --> 00:02:17,466
+Volte para um diretrio de trabalho limpo e pronto.
+

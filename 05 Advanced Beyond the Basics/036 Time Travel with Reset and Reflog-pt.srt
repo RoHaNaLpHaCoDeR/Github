@@ -1,0 +1,264 @@
+1
+00:00:00,000 --> 00:00:08,400
+Bem-vindo, neste vdeo, vamos fazer um pouco de viagem no tempo com "reset" e "reflog".
+
+2
+00:00:08,400 --> 00:00:12,600
+Eu estou atualmente no repositrio Git "demo", e atualmente estou no master, sem nada
+
+3
+00:00:12,600 --> 00:00:15,633
+para confirmar, pois eu tenho um diretrio de trabalho limpo.
+
+4
+00:00:15,633 --> 00:00:24,966
+Vamos cuidar disso; em outra linha, vou colocar "Atualizaes no palco".
+
+5
+00:00:24,966 --> 00:00:33,733
+Ento, eu fiz o "git add" para adicionar essa mudana no arquivo Leiame para o estgio, e ento eu coloquei
+
+6
+00:00:33,733 --> 00:00:39,300
+outra linha para denotar algumas mudanas que temos em nosso diretrio de trabalho.
+
+7
+00:00:39,300 --> 00:00:44,300
+Se fizermos um "status do git", veremos que nossas modificaes foram detectadas,
+
+8
+00:00:44,300 --> 00:00:48,133
+tanto na rea de preparao quanto no diretrio de trabalho.
+
+9
+00:00:48,133 --> 00:00:52,233
+Agora, pode haver momentos em que voc precisa ir para um ponto de confirmao
+
+10
+00:00:52,233 --> 00:00:57,166
+diferente; se voc cometeu um erro no ltimo commit, por exemplo, que voc no precisou se comprometer.
+
+11
+00:00:57,166 --> 00:01:01,900
+Voc deseja reverter para um commit anterior; isso certamente est bem.
+
+12
+00:01:01,900 --> 00:01:08,200
+Faa um "git hist"; voc pode ver que temos vrios commits para escolher.
+
+13
+00:01:08,200 --> 00:01:14,000
+Ento, eu vou fazer um "git reset"; Estou passando o cdigo de confirmao para o qual desejo redefinir.
+
+14
+00:01:14,000 --> 00:01:16,766
+E a opo "--soft".
+
+15
+00:01:16,766 --> 00:01:21,633
+E, a razo pela qual estou fazendo isso, h na verdade trs maneiras distintas de redefinir:
+
+16
+00:01:21,633 --> 00:01:24,766
+h uma reinicializao temporria, que  o que estou prestes
+
+17
+00:01:24,766 --> 00:01:28,833
+a fazer; existe o padro, que  chamado de misto; e depois  difcil.
+
+18
+00:01:28,833 --> 00:01:32,933
+O soft reset  o menos destrutivo de todos eles; Basicamente, tudo
+
+19
+00:01:32,933 --> 00:01:36,300
+o que faz  mudar onde HEAD est apontando.
+
+20
+00:01:36,300 --> 00:01:39,400
+Ento, vamos tentar isso; geralmente nenhuma notcia  uma boa notcia.
+
+21
+00:01:39,400 --> 00:01:45,700
+Anote onde o HEAD est apontando agora, que  "67b1242".
+
+22
+00:01:45,700 --> 00:01:53,200
+Se fizermos um "git hist", como esperado, o HEAD est apontando para "ce2c810", que  o ID
+
+23
+00:01:53,200 --> 00:01:56,633
+de confirmao que passamos para o comando reset.
+
+24
+00:01:56,633 --> 00:02:01,900
+Vamos conferir nosso "status do git"; temos arquivos que foram modificados e na
+
+25
+00:02:01,900 --> 00:02:05,633
+nossa rea de teste. Isso  o que o soft nos
+
+26
+00:02:05,633 --> 00:02:09,866
+permite fazer,  simplesmente alterar o ID de commit para o qual o head est apontando,
+
+27
+00:02:09,866 --> 00:02:14,866
+o que significa que ele preserva a rea de teste do Git e o nosso diretrio de trabalho.
+
+28
+00:02:14,866 --> 00:02:19,033
+Efetivamente, podemos reverter nossas alteraes, fazer pequenas modificaes e, em
+
+29
+00:02:19,033 --> 00:02:21,800
+seguida, confirmar onde a cabea est apontando.
+
+30
+00:02:21,800 --> 00:02:32,500
+Vamos tentar isso outra hora; Eu vou escolher o ID de commit "6ad74df".
+
+31
+00:02:32,500 --> 00:02:36,766
+E, embora "misturado" deva ser padro, no h problema em especific-lo apenas para
+
+32
+00:02:36,766 --> 00:02:39,900
+garantir nosso exemplo; vamos em frente e aperte enter.
+
+33
+00:02:39,900 --> 00:02:43,800
+Agora, o que  interessante, na verdade, ele tirou o nmero de alteraes.
+
+34
+00:02:43,800 --> 00:02:51,766
+Se fizermos um "git hist", podemos ver que o HEAD est apontando para "6ad74df".
+
+35
+00:02:51,766 --> 00:02:56,366
+Se fizermos um "status git", temos vrios arquivos que no foram distribudos e
+
+36
+00:02:56,366 --> 00:03:01,566
+colocados em nosso diretrio de trabalho; No h nada em nossa rea de teste.
+
+37
+00:03:01,566 --> 00:03:07,100
+Vamos tentar uma ltima vez. Agora digite "git reset",
+
+38
+00:03:07,100 --> 00:03:17,000
+seguido pelo commit id: estou usando "d444e90 --hard". Este  o mais destrutivo de todos os modos de reset.
+
+39
+00:03:17,000 --> 00:03:21,700
+Agora, pressione enter. Simplesmente nos diz que nossa CABEA est agora
+
+40
+00:03:21,700 --> 00:03:26,833
+em um novo local; se fizermos um "status git", veremos que nosso diretrio de trabalho est limpo,
+
+41
+00:03:26,833 --> 00:03:29,733
+o que significa que quaisquer alteraes pendentes foram eliminadas,
+
+42
+00:03:29,733 --> 00:03:32,900
+juntamente com qualquer coisa que estivesse na rea de preparao.
+
+43
+00:03:32,900 --> 00:03:37,200
+Novamente, um hard reset  o tipo mais destrutivo de um reset.
+
+44
+00:03:37,200 --> 00:03:40,200
+Alm das poucas mudanas que fizemos
+
+45
+00:03:40,200 --> 00:03:42,300
+no comeo, no perdemos muito.
+
+46
+00:03:42,300 --> 00:03:47,633
+E voc est pensando; bem, se fizermos um "git hist", nossa cabea
+
+47
+00:03:47,633 --> 00:03:51,500
+est apontando para o segundo comcio em nossa histria.
+
+48
+00:03:51,500 --> 00:03:56,533
+Se apenas fizermos "git log --oneline", ou seja, deixaremos de fora o
+
+49
+00:03:56,533 --> 00:03:59,600
+"--all", vemos que temos apenas dois commits listados.
+
+50
+00:03:59,600 --> 00:04:03,400
+Ento, se voc ver essa lista de histria, ento voc pode
+
+51
+00:04:03,400 --> 00:04:08,200
+estar um pouco preocupado; tudo bem, porque h outro comando que podemos usar em
+
+52
+00:04:08,200 --> 00:04:13,166
+conjunto com o reset que torna as coisas muito melhores,  chamado de "reflog".
+
+53
+00:04:13,166 --> 00:04:17,900
+Embora ambos "git log" e "git reflog" compartilhem nomes semelhantes, "git
+
+54
+00:04:17,900 --> 00:04:22,500
+log" nos mostra nossos ids de commit, e "git reflog" nos
+
+55
+00:04:22,500 --> 00:04:26,400
+mostra todas as aes diferentes que tomamos neste repositrio.
+
+56
+00:04:26,400 --> 00:04:31,466
+Isso nos permite retornar a um cdigo de confirmao especfico se precisarmos.
+
+57
+00:04:31,466 --> 00:04:34,666
+Por exemplo, vamos para "head
+
+58
+00:04:34,666 --> 00:04:42,733
+@ {3}", que  o ltimo commit antes de fazermos reset; isso  "67b1242".
+
+59
+00:04:42,733 --> 00:04:46,566
+Eu vou copiar esse ID de commit, fazer um "git reset";
+
+60
+00:04:46,566 --> 00:04:50,533
+Neste ponto, como no h trabalho pendente, podemos deix-lo no padro ou
+
+61
+00:04:50,533 --> 00:04:55,466
+podemos especificar hard; depois cole no nosso cdigo de commit; e depois pressione enter.
+
+62
+00:04:55,466 --> 00:05:01,733
+Ns agora mudamos o nosso id de retorno de volta. Faa um "git log --oneline"; Parece
+
+63
+00:05:01,733 --> 00:05:08,066
+que temos a nossa histria de volta. E usando nosso alias "git hist", podemos ver que
+
+64
+00:05:08,066 --> 00:05:13,633
+nosso histrico do Git se parece com o repositrio antes de fazer qualquer um dos reincios.
+
+65
+00:05:13,633 --> 00:05:18,933
+Usar "reset" + "reflog" realmente proporciona controle total sobre a
+
+66
+00:05:18,933 --> 00:05:23,300
+viagem no tempo dentro do seu repositrio Git.
+
