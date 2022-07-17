@@ -1,0 +1,128 @@
+1
+00:00:00,000 --> 00:00:04,166
+Welcome, in this video we're going to rename and delete files
+
+2
+00:00:04,166 --> 00:00:11,300
+outside of Git, and see how Git reacts. I'm currently in the "demo" Git repository,
+
+3
+00:00:11,300 --> 00:00:16,000
+on master, with nothing to commit since we have a clean working directory.
+
+4
+00:00:16,000 --> 00:00:20,066
+I have the "README.md" file, and a "LICENSE.md" file.
+
+5
+00:00:20,066 --> 00:00:25,700
+Let's create a new file using the "touch" command: "touch myfile.txt".
+
+6
+00:00:25,700 --> 00:00:29,400
+Note, this is not a Git command, this is just a bash command
+
+7
+00:00:29,400 --> 00:00:32,733
+that is used to update or create new files.
+
+8
+00:00:32,733 --> 00:00:38,700
+Doing an "ls", we see we have our "myfile.txt",
+
+9
+00:00:38,700 --> 00:00:43,133
+and I will use the bash command "mv", not the "git mv" command,
+
+10
+00:00:43,133 --> 00:00:49,766
+to rename the file "LICENSE.md" to "LICENSE.txt". Press enter.
+
+11
+00:00:49,766 --> 00:00:54,700
+If we do an "ls -l", we see we have our "myfile.txt",
+
+12
+00:00:54,700 --> 00:01:01,966
+and "LICENSE.md" has been renamed to "LICENSE.txt"; let's see how Git sees this.
+
+13
+00:01:01,966 --> 00:01:07,033
+Well Git sees the "myfile.txt" as an untracked file, which is not surprising,
+
+14
+00:01:07,033 --> 00:01:13,333
+but it sees the rename as a deletion, and adding an untracked file.
+
+15
+00:01:13,333 --> 00:01:16,833
+So, we need to tell Git about our recent changes.
+
+16
+00:01:16,833 --> 00:01:22,933
+For simply having deletions, we can use the "-u" parameter with the "git add" command.
+
+17
+00:01:22,933 --> 00:01:28,733
+Type "git add -u", which stands for update, then press enter.
+
+18
+00:01:28,733 --> 00:01:34,200
+Now, let's do a "git status"; now we have our "Changes to be committed",
+
+19
+00:01:34,200 --> 00:01:40,533
+which means it picked up the "LICENSE.txt" file, but it didn't pick up the "myfile.txt".
+
+20
+00:01:40,533 --> 00:01:48,133
+So, in order to include both additions and deletions, you need to use "git add -A";
+
+21
+00:01:48,133 --> 00:01:53,066
+that will cover all types of modifications possible on the current working directory
+
+22
+00:01:53,066 --> 00:01:57,400
+and make those updates accordingly in the Git index.
+
+23
+00:01:57,400 --> 00:02:02,666
+Now, if I do a "git status", it properly sees the "LICENSE.md" file
+
+24
+00:02:02,666 --> 00:02:09,900
+being renamed to "LICENSE.txt", and it also picks up the new file, "myfile.txt"
+
+25
+00:02:09,900 --> 00:02:13,366
+Again, at this point, these changes are only staged.
+
+26
+00:02:13,366 --> 00:02:22,533
+Let's move forward by committing; great, now we've committed those changes.
+
+27
+00:02:22,533 --> 00:02:28,500
+What if we determined that we really don't want that "myfile.txt"?
+
+28
+00:02:28,500 --> 00:02:33,833
+We could use the bash command "rm" to delete the file at the operating system level.
+
+29
+00:02:33,833 --> 00:02:39,633
+Let's do that. Now, if we do a "git status", it sees the file has been deleted.
+
+30
+00:02:39,633 --> 00:02:48,033
+Let's stage it; now if we do a "git add -u", it will pick up the deletion and stage it.
+
+31
+00:02:48,033 --> 00:02:56,633
+Now, it sees the deleted file, and staged it; now, let's commit that":
+
+32
+00:02:56,633 --> 00:03:06,633
+"git commit -m "removed myfile.txt". Great, now that file has been removed.
+
