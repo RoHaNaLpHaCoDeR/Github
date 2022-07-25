@@ -1,0 +1,64 @@
+1
+00:00:00,000 --> 00:00:04,866
+Welcome, in this section, we will get an introduction to the GitHub hosting service.
+
+2
+00:00:04,866 --> 00:00:09,933
+So far, we have been working exclusively on our local system, but now
+
+3
+00:00:09,933 --> 00:00:14,866
+it's time to publish our code somewhere others can see it, and potentially contribute to it.
+
+4
+00:00:14,866 --> 00:00:19,366
+The most popular hosting service for Git repositories is GitHub.
+
+5
+00:00:19,366 --> 00:00:22,600
+GitHub has become the most popular Git hosting service
+
+6
+00:00:22,600 --> 00:00:25,633
+largely because of the free account it offers,
+
+7
+00:00:25,633 --> 00:00:31,200
+which includes public repositories, along with its long list of powerful features.
+
+8
+00:00:31,200 --> 00:00:36,133
+GitHub does have a paid service for those that need private repositories too.
+
+9
+00:00:36,133 --> 00:00:41,766
+For this course, we will be staying with the public repositories, so the free account will be fine.
+
+10
+00:00:41,766 --> 00:00:45,166
+During this section, we will walk through signing up for GitHub
+
+11
+00:00:45,166 --> 00:00:47,500
+for those that don't already have an account.
+
+12
+00:00:47,500 --> 00:00:50,133
+Once everyone has an account and signed in,
+
+13
+00:00:50,133 --> 00:00:53,600
+we will review the GitHub user profile and settings,
+
+14
+00:00:53,600 --> 00:00:56,066
+and then create our first repository on GitHub.
+
+15
+00:00:56,066 --> 00:00:58,700
+With our newly created repository on GitHub,
+
+16
+00:00:58,700 --> 00:01:04,800
+we will link up our local repository, and send everything up to GitHub.
+

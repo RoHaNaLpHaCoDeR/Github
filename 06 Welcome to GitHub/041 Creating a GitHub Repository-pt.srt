@@ -1,0 +1,76 @@
+1
+00:00:00,000 --> 00:00:03,533
+Bem-vindo, neste vdeo, faremos login em nossa conta do GitHub e
+
+2
+00:00:03,533 --> 00:00:08,700
+criaremos um novo repositrio para usarmos com nosso repositrio de demonstrao em nosso sistema local.
+
+3
+00:00:08,700 --> 00:00:12,000
+Eu estou indo para o meu navegador favorito, neste caso eu estou usando o Google Chrome.
+
+4
+00:00:12,000 --> 00:00:15,433
+Depois que o site do GitHub for carregado, acesse o boto "Fazer login"
+
+5
+00:00:15,433 --> 00:00:18,466
+e faamos login em nossa conta se ainda no tiver efetuado login.
+
+6
+00:00:18,466 --> 00:00:20,966
+Depois de preencher suas credenciais, clique em "Fazer login".
+
+7
+00:00:20,966 --> 00:00:25,400
+Depois de fazer login na sua conta, clique no boto verde "Novo repositrio".
+
+8
+00:00:25,400 --> 00:00:28,700
+Na pgina de criao de repositrio, certifique-se de que o proprietrio 
+
+9
+00:00:28,700 --> 00:00:31,566
+voc e, para o nome do repositrio, vou digitar "demo".
+
+10
+00:00:31,566 --> 00:00:36,733
+O GitHub vai verificar se o nome "demo"  nico no espao do meu dono.
+
+11
+00:00:36,733 --> 00:00:39,800
+Ns podemos dar a este repositrio uma descrio opcional, ento
+
+12
+00:00:39,800 --> 00:00:45,033
+eu vou usar "Este  um repositrio demo". Vou deixar este repositrio como pblico,
+
+13
+00:00:45,033 --> 00:00:48,566
+pois os repositrios privados exigiriam uma conta paga.
+
+14
+00:00:48,566 --> 00:00:52,366
+Vou deixar o restante das opes desmarcado ou definido como "Nenhum".
+
+15
+00:00:52,366 --> 00:00:55,400
+Agora clique no boto verde "Criar repositrio".
+
+16
+00:00:55,400 --> 00:00:59,133
+timo, uma vez que o repositrio foi criado, voc vai pousar em uma
+
+17
+00:00:59,133 --> 00:01:02,433
+pgina como esta, dando-lhe vrias instrues. Como no temos
+
+18
+00:01:02,433 --> 00:01:06,300
+nenhum cdigo-fonte j associado a este repositrio,
+
+19
+00:01:06,300 --> 00:01:13,166
+precisaremos associar nosso repositrio local existente ao nosso repositrio remoto recm-criado.
+

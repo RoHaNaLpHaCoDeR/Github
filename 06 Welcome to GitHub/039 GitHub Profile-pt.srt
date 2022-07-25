@@ -1,0 +1,160 @@
+1
+00:00:00,000 --> 00:00:05,000
+Bem-vindo, neste vdeo, vamos dedicar alguns minutos para configurar nossa conta no GitHub.
+
+2
+00:00:05,000 --> 00:00:09,866
+Como voc pode ver, onde estou agora est no site do GitHub, conectado  minha conta.
+
+3
+00:00:09,866 --> 00:00:13,733
+Se voc ainda no estiver conectado, acesse o site do GitHub e faa login agora.
+
+4
+00:00:13,733 --> 00:00:17,066
+Depois de fazer o login e chegar na pgina de newsfeed, v
+
+5
+00:00:17,066 --> 00:00:21,000
+para o canto superior direito, onde voc v o perfil de visualizao e muito mais.
+
+6
+00:00:21,000 --> 00:00:24,600
+Clique no menu suspenso ao lado dele. clique em "Seu perfil".
+
+7
+00:00:24,600 --> 00:00:27,166
+Esta  uma pgina de resumo geral do seu
+
+8
+00:00:27,166 --> 00:00:29,833
+perfil, que inclui contribuies feitas ao longo do tempo.
+
+9
+00:00:29,833 --> 00:00:32,833
+E, como esta  uma nova conta, no h nenhuma neste momento.
+
+10
+00:00:32,833 --> 00:00:37,733
+Ele tambm mostra repositrios e atividades pblicas, os quais estaro vazios neste momento; no
+
+11
+00:00:37,733 --> 00:00:40,633
+entanto, o que queremos  clicar em "Editar perfil".
+
+12
+00:00:40,633 --> 00:00:44,233
+Quando estivermos na pgina de perfil pblico, vamos preencher essas informaes
+
+13
+00:00:44,233 --> 00:00:47,233
+para que, quando contribuirmos com outros repositrios no futuro,
+
+14
+00:00:47,233 --> 00:00:52,300
+as pessoas saibam um pouco mais sobre ns e, assim, provavelmente confiaro naquilo que contriburem.
+
+15
+00:00:52,300 --> 00:00:55,033
+Primeiro, vamos comear fazendo o upload de uma foto de perfil.
+
+16
+00:00:55,033 --> 00:00:57,666
+Na foto do perfil, clique em "Enviar nova foto".
+
+17
+00:00:57,666 --> 00:01:00,500
+Por acaso tenho minha foto aqui na minha rea de trabalho.
+
+18
+00:01:00,500 --> 00:01:04,200
+Ento, eu vou selecionar "Desktop" e, em seguida, selecione minha foto, que  um ". jpg ".
+
+19
+00:01:04,200 --> 00:01:08,633
+Ento, vou clicar em "Abrir". Eu vou ter a oportunidade de cortar minha foto;
+
+20
+00:01:08,633 --> 00:01:11,366
+Vou diminuir um pouco, e isso parece bom para mim.
+
+21
+00:01:11,366 --> 00:01:15,766
+Ento, quando eu estiver satisfeito com a colheita, clicarei em "Definir nova foto de perfil".
+
+22
+00:01:15,766 --> 00:01:19,033
+timo, voc pode ver que a foto do perfil foi atualizada
+
+23
+00:01:19,033 --> 00:01:23,100
+e agora posso continuar preenchendo o restante deste formulrio, comeando com o nome.
+
+24
+00:01:23,100 --> 00:01:26,566
+Eu posso escolher mostrar meu endereo de e-mail ou no.
+
+25
+00:01:26,566 --> 00:01:29,633
+Em URL, se voc tiver um endereo de site pessoal
+
+26
+00:01:29,633 --> 00:01:33,766
+ou quiser anunciar o endereo de sua empresa, coloque o endereo do site aqui.
+
+27
+00:01:33,766 --> 00:01:37,566
+Se voc tem um nome de empresa, pode coloc-lo l, mas tambm  opcional.
+
+28
+00:01:37,566 --> 00:01:40,400
+No local, voc pode colocar o que quiser nesse campo, o
+
+29
+00:01:40,400 --> 00:01:43,866
+que significa que voc pode mentir completamente sobre sua localizao, se voc optar por
+
+30
+00:01:43,866 --> 00:01:47,733
+faz-lo, mas geralmente as pessoas preferem se voc realmente disser a eles onde voc est.
+
+31
+00:01:47,733 --> 00:01:51,633
+Voc no precisa descer ao nvel da rua ou qualquer coisa que seja muito reveladora.
+
+32
+00:01:51,633 --> 00:01:53,533
+S vou deixar no nvel da
+
+33
+00:01:53,533 --> 00:01:57,066
+cidade, que estou atualmente em Orlando, na Flrida, nos Estados Unidos.
+
+34
+00:01:57,066 --> 00:02:00,966
+Depois de atualizar essa parte do perfil, clique em "Atualizar perfil".
+
+35
+00:02:00,966 --> 00:02:03,766
+Esta pgina ser atualizada, fornecendo um aviso, informando que
+
+36
+00:02:03,766 --> 00:02:07,300
+o perfil foi atualizado com sucesso. Eu vou cancelar isso.
+
+37
+00:02:07,300 --> 00:02:11,466
+E, em configuraes pessoais, continuaremos trabalhando nessas configuraes pessoais para
+
+38
+00:02:11,466 --> 00:02:15,033
+configurar nosso perfil com a maior preciso possvel.
+
+39
+00:02:15,033 --> 00:02:17,666
+Claro, o que voc escolher fornecer 
+
+40
+00:02:17,666 --> 00:02:23,033
+bom, e se h coisas que voc prefere no fornecer, tudo bem tambm.
+

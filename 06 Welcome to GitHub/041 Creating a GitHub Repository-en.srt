@@ -1,0 +1,76 @@
+1
+00:00:00,000 --> 00:00:03,533
+Welcome, in this video, we're going to sign in to our GitHub account
+
+2
+00:00:03,533 --> 00:00:08,700
+and create a new repo for us to use with our demo repository on our local system.
+
+3
+00:00:08,700 --> 00:00:12,000
+I'm going to go to my favorite browser, in this case I'm using Google Chrome.
+
+4
+00:00:12,000 --> 00:00:15,433
+Once the GitHub website loads, go to the "Sign in" button,
+
+5
+00:00:15,433 --> 00:00:18,466
+and let's sign into our account if we're not already logged in.
+
+6
+00:00:18,466 --> 00:00:20,966
+Once you've filled in your credentials, click "Sign in".
+
+7
+00:00:20,966 --> 00:00:25,400
+Once you've logged into your account, click on the green "New repository" button.
+
+8
+00:00:25,400 --> 00:00:28,700
+On the create repository page, make sure that the owner is you,
+
+9
+00:00:28,700 --> 00:00:31,566
+and, for repository name, I'm just going to type "demo".
+
+10
+00:00:31,566 --> 00:00:36,733
+GitHub is going to verify that the name "demo" is unique within my owner space.
+
+11
+00:00:36,733 --> 00:00:39,800
+We can give this repository an optional description,
+
+12
+00:00:39,800 --> 00:00:45,033
+so I'm going to use "This is a demo repository". I'm going to leave this repository as public
+
+13
+00:00:45,033 --> 00:00:48,566
+since private repositories would require a paid account.
+
+14
+00:00:48,566 --> 00:00:52,366
+I'm going to leave the rest of the options unchecked or set to "None".
+
+15
+00:00:52,366 --> 00:00:55,400
+Now click the green "Create repository" button.
+
+16
+00:00:55,400 --> 00:00:59,133
+Great, once the repository's been created, you'll land on a page like this,
+
+17
+00:00:59,133 --> 00:01:02,433
+giving you several instructions. Since we don't have any source code
+
+18
+00:01:02,433 --> 00:01:06,300
+already associated with this repository, we will need to associate
+
+19
+00:01:06,300 --> 00:01:13,166
+our existing local repository with our newly created remote repository
+

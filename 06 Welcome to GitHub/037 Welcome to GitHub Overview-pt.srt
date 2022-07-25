@@ -1,0 +1,64 @@
+1
+00:00:00,000 --> 00:00:04,866
+Bem-vindo, nesta seo, teremos uma introduo ao servio de hospedagem do GitHub.
+
+2
+00:00:04,866 --> 00:00:09,933
+At agora, temos trabalhado exclusivamente em nosso sistema local, mas agora  hora de publicar
+
+3
+00:00:09,933 --> 00:00:14,866
+nosso cdigo em algum lugar que outros possam v-lo e, potencialmente, contribuir para isso.
+
+4
+00:00:14,866 --> 00:00:19,366
+O servio de hospedagem mais popular para repositrios Git  o GitHub.
+
+5
+00:00:19,366 --> 00:00:22,600
+O GitHub tornou-se o servio de hospedagem Git
+
+6
+00:00:22,600 --> 00:00:25,633
+mais popular em grande parte devido  conta
+
+7
+00:00:25,633 --> 00:00:31,200
+gratuita que oferece, que inclui repositrios pblicos, alm de sua longa lista de recursos poderosos.
+
+8
+00:00:31,200 --> 00:00:36,133
+O GitHub tem um servio pago para aqueles que precisam de repositrios privados tambm.
+
+9
+00:00:36,133 --> 00:00:41,766
+Para este curso, ficaremos com os repositrios pblicos, ento a conta gratuita ficar bem.
+
+10
+00:00:41,766 --> 00:00:45,166
+Durante esta seo, vamos nos inscrever no GitHub para
+
+11
+00:00:45,166 --> 00:00:47,500
+aqueles que ainda no possuem uma conta.
+
+12
+00:00:47,500 --> 00:00:50,133
+Quando todos tiverem uma conta e estiverem conectados,
+
+13
+00:00:50,133 --> 00:00:53,600
+revisaremos o perfil e as configuraes do usurio do GitHub
+
+14
+00:00:53,600 --> 00:00:56,066
+e criaremos nosso primeiro repositrio no GitHub.
+
+15
+00:00:56,066 --> 00:00:58,700
+Com nosso repositrio recm-criado no
+
+16
+00:00:58,700 --> 00:01:04,800
+GitHub, ns conectaremos nosso repositrio local e enviaremos tudo para o GitHub.
+

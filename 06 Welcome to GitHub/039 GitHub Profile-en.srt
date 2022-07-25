@@ -1,0 +1,160 @@
+1
+00:00:00,000 --> 00:00:05,000
+Welcome, in this video, we're going to take a few minutes to set up our account on GitHub.
+
+2
+00:00:05,000 --> 00:00:09,866
+As you can see, where I'm at now is on the GitHub website, signed into my account.
+
+3
+00:00:09,866 --> 00:00:13,733
+If you're not already signed in, go to the GitHub website and sign in now.
+
+4
+00:00:13,733 --> 00:00:17,066
+Once you have signed in and arrived on the newsfeed page,
+
+5
+00:00:17,066 --> 00:00:21,000
+go to the upper right-hand side where you see view profile and more.
+
+6
+00:00:21,000 --> 00:00:24,600
+Click the drop-down next to it; click on "Your profile".
+
+7
+00:00:24,600 --> 00:00:27,166
+This is a general summary page for your profile,
+
+8
+00:00:27,166 --> 00:00:29,833
+which includes contributions you have made over time.
+
+9
+00:00:29,833 --> 00:00:32,833
+And, since this is a new account, there aren't any at this point.
+
+10
+00:00:32,833 --> 00:00:37,733
+It also shows repositories and public activity, both of which will be empty at this point;
+
+11
+00:00:37,733 --> 00:00:40,633
+however, what we want is to click on "Edit profile".
+
+12
+00:00:40,633 --> 00:00:44,233
+Once we're on the public profile page, let's fill in this information,
+
+13
+00:00:44,233 --> 00:00:47,233
+so as we contribute to other repositories in the future,
+
+14
+00:00:47,233 --> 00:00:52,300
+people will know a little bit more about us and thus will most likely trust whatever we contribute.
+
+15
+00:00:52,300 --> 00:00:55,033
+First, let's start off by uploading a profile picture.
+
+16
+00:00:55,033 --> 00:00:57,666
+Under profile picture, click "Upload new picture".
+
+17
+00:00:57,666 --> 00:01:00,500
+I happen to have my picture over here on my desktop.
+
+18
+00:01:00,500 --> 00:01:04,200
+So, I'm going to select "Desktop", and then select my picture, which is a ".jpg".
+
+19
+00:01:04,200 --> 00:01:08,633
+Then, I'm going to click on "Open". I'm going to be granted the opportunity to crop my picture;
+
+20
+00:01:08,633 --> 00:01:11,366
+I'm going to move it down just a little bit, and that looks good to me.
+
+21
+00:01:11,366 --> 00:01:15,766
+So, once I'm happy with the crop, I'm going to click on the "Set new profile picture".
+
+22
+00:01:15,766 --> 00:01:19,033
+Great, you can see that the profile picture has been updated,
+
+23
+00:01:19,033 --> 00:01:23,100
+and now I can continue filling out the rest of this form, starting with the name.
+
+24
+00:01:23,100 --> 00:01:26,566
+I can choose to show my email address or not.
+
+25
+00:01:26,566 --> 00:01:29,633
+Under URL, if you have a personal website address,
+
+26
+00:01:29,633 --> 00:01:33,766
+or you want to advertise your company's address, put the website address here.
+
+27
+00:01:33,766 --> 00:01:37,566
+If you have a company name, you can put it there, but it's also optional.
+
+28
+00:01:37,566 --> 00:01:40,400
+In location, you can put anything you want in this field,
+
+29
+00:01:40,400 --> 00:01:43,866
+which means you can completely lie about your location if you choose to do so,
+
+30
+00:01:43,866 --> 00:01:47,733
+but generally people prefer it if you actually tell them generally where you're at.
+
+31
+00:01:47,733 --> 00:01:51,633
+You don't have to put down to the street level or anything that would be too revealing.
+
+32
+00:01:51,633 --> 00:01:53,533
+I'm just going to leave it at the city level,
+
+33
+00:01:53,533 --> 00:01:57,066
+which I'm currently in Orlando, Florida in the United States.
+
+34
+00:01:57,066 --> 00:02:00,966
+Once you've updated that part of the profile, click on "Update profile".
+
+35
+00:02:00,966 --> 00:02:03,766
+This page will refresh, providing a notice, letting you know
+
+36
+00:02:03,766 --> 00:02:07,300
+that the profile has been successfully updated. I'm going to cancel that.
+
+37
+00:02:07,300 --> 00:02:11,466
+And, under personal settings, we're going to continue working down these personal settings
+
+38
+00:02:11,466 --> 00:02:15,033
+to set up our profile as accurately as possible.
+
+39
+00:02:15,033 --> 00:02:17,666
+Of course, whatever you choose to provide is fine,
+
+40
+00:02:17,666 --> 00:02:23,033
+and if there are things you prefer not to provide, that's OK too.
+

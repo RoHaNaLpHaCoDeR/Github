@@ -1,0 +1,180 @@
+1
+00:00:00,000 --> 00:00:05,000
+Bem-vindo, neste vdeo, vamos continuar preenchendo nossas configuraes pessoais.
+
+2
+00:00:05,000 --> 00:00:09,200
+Estou atualmente conectado ao GitHub e atualmente estou na pgina de
+
+3
+00:00:09,200 --> 00:00:13,233
+perfil pblico, que acabamos de preencher. Eu no vou passar por todos os
+
+4
+00:00:13,233 --> 00:00:16,700
+itens aqui no menu de configuraes pessoais, mas vamos acertar os destaques.
+
+5
+00:00:16,700 --> 00:00:18,200
+Vamos para as configuraes da conta.
+
+6
+00:00:18,200 --> 00:00:21,466
+As configuraes da conta nos permitiro alterar uma senha, se quisermos.
+
+7
+00:00:21,466 --> 00:00:24,666
+Alm disso, se no gostarmos do nosso nome de usurio, podemos alter-lo aqui.
+
+8
+00:00:24,666 --> 00:00:29,100
+E, se por algum motivo, voc realmente no gostar do GitHub, poder excluir sua conta.
+
+9
+00:00:29,100 --> 00:00:32,000
+Em e-mails, voc comear com o endereo de e-mail
+
+10
+00:00:32,000 --> 00:00:36,000
+que voc forneceu quando se inscreveu. Se preferir, voc pode adicionar mais e-mails.
+
+11
+00:00:36,000 --> 00:00:38,433
+Depois de fornecer um endereo de e-mail, clique em adicionar.
+
+12
+00:00:38,433 --> 00:00:41,966
+O GitHub enviar um email de verificao para esse endereo de email.
+
+13
+00:00:41,966 --> 00:00:45,733
+At ser verificado, voc ter este selo ao lado do seu endereo de e-mail, o que
+
+14
+00:00:45,733 --> 00:00:48,733
+significa que ele no foi verificado. Se, por algum motivo, voc
+
+15
+00:00:48,733 --> 00:00:52,733
+no receber o e-mail para verificao, clique no boto "Reenviar" ou, se no
+
+16
+00:00:52,733 --> 00:00:57,433
+quiser que seu endereo de e-mail seja vinculado ao GitHub, clique no boto "Excluir".
+
+17
+00:00:57,433 --> 00:00:59,733
+Tudo bem, vamos para o centro de notificaes.
+
+18
+00:00:59,733 --> 00:01:05,166
+O centro de notificao  como controlamos quais notificaes recebemos e como as recebemos.
+
+19
+00:01:05,166 --> 00:01:07,766
+Por padro, quase tudo  verificado para voc.
+
+20
+00:01:07,766 --> 00:01:11,200
+Ento, voc pode entrar e dizer que eu no quero algo de uma certa maneira.
+
+21
+00:01:11,200 --> 00:01:15,266
+Por exemplo, voc deseja receber notificaes quando participa de uma conversa ou
+
+22
+00:01:15,266 --> 00:01:17,866
+algum acessa voc por meio de "@mention".
+
+23
+00:01:17,866 --> 00:01:22,200
+Voc pode decidir que no deseja receber um e-mail, mas deseja deixar a configurao da web,
+
+24
+00:01:22,200 --> 00:01:25,833
+o que significa que, quando voc fizer login, ser exibido sob as notificaes.
+
+25
+00:01:25,833 --> 00:01:28,566
+Em "Assistindo", voc pode decidir que no deseja nenhum
+
+26
+00:01:28,566 --> 00:01:30,866
+deles, apenas desmarque as opes que no deseja.
+
+27
+00:01:30,866 --> 00:01:33,766
+E, se voc tiver vrios endereos de e-mail, poder
+
+28
+00:01:33,766 --> 00:01:36,700
+escolher quais endereos de e-mail deseja para sua notificao.
+
+29
+00:01:36,700 --> 00:01:41,033
+Nesta pgina, todas as atualizaes so feitas automaticamente, ento no h necessidade de salvar nada.
+
+30
+00:01:41,033 --> 00:01:43,033
+Seguindo em frente, vamos ao faturamento.
+
+31
+00:01:43,033 --> 00:01:46,900
+Como estamos na conta gratuita, no h necessidade de preencher nenhuma informao de faturamento.
+
+32
+00:01:46,900 --> 00:01:49,966
+Se, no futuro, voc optar por migrar para uma conta paga,
+
+33
+00:01:49,966 --> 00:01:52,833
+essa ser a pgina que voc preencheria com suas informaes
+
+34
+00:01:52,833 --> 00:01:55,966
+de pagamento, alm de fornecer cdigos de cupom, caso voc os tenha.
+
+35
+00:01:55,966 --> 00:01:58,933
+Ns vamos cobrir as chaves SSH mais tarde, e
+
+36
+00:01:58,933 --> 00:02:01,766
+em segurana, podemos habilitar a autenticao de dois fatores.
+
+37
+00:02:01,766 --> 00:02:04,466
+A autenticao de dois fatores  um pouco mais
+
+38
+00:02:04,466 --> 00:02:09,366
+avanada, e recomendo que voc leia as informaes sobre a autenticao de dois fatores antes de ativ-la.
+
+39
+00:02:09,366 --> 00:02:13,166
+Alm disso, na pgina de segurana, ele mostra as sesses que
+
+40
+00:02:13,166 --> 00:02:17,833
+temos e mostra um histrico das vrias aes que tomamos, especialmente com o perfil.
+
+41
+00:02:17,833 --> 00:02:20,066
+Os outros itens so um pouco mais avanados,
+
+42
+00:02:20,066 --> 00:02:22,166
+e ns os abordaremos em vdeos posteriores.
+
+43
+00:02:22,166 --> 00:02:24,500
+Por enquanto, terminamos nossas configuraes pessoais, ento
+
+44
+00:02:24,500 --> 00:02:29,033
+vamos clicar no cone do octocat para retornar  nossa pgina de newsfeed,
+
+45
+00:02:29,033 --> 00:02:34,633
+que  a pgina em que normalmente somos recebidos quando nos conectamos ao GitHub pela primeira vez.
+

@@ -1,0 +1,132 @@
+1
+00:00:00,000 --> 00:00:04,966
+Welcome, in this video, I'm going to sign up for a GitHub account.
+
+2
+00:00:04,966 --> 00:00:10,066
+Fire up your favorite browser, in my case I'm using Google Chrome.
+
+3
+00:00:10,066 --> 00:00:12,866
+If you don't have an existing account on GitHub,
+
+4
+00:00:12,866 --> 00:00:16,433
+use the form on the GitHub homepage to set up your account.
+
+5
+00:00:16,433 --> 00:00:20,733
+In my case, I want to select "jasongtaylor" as my username,
+
+6
+00:00:20,733 --> 00:00:24,833
+which GitHub automatically searches for to make sure it's unique in the system.
+
+7
+00:00:24,833 --> 00:00:28,566
+I provide my email address, which is jason@git.training;
+
+8
+00:00:28,566 --> 00:00:32,933
+GitHub will verify that this email address is not currently being used on the system.
+
+9
+00:00:32,933 --> 00:00:36,700
+And then, finally, I provide the password that I'm going to use for my account.
+
+10
+00:00:36,700 --> 00:00:40,266
+Below, you can see GitHub's recommendation for passwords,
+
+11
+00:00:40,266 --> 00:00:44,933
+which is at least one lowercase letter, one numeral, and at least seven characters.
+
+12
+00:00:44,933 --> 00:00:47,966
+Once you've filled in the form, and have three check marks,
+
+13
+00:00:47,966 --> 00:00:50,733
+go ahead and click on the green "Sign up for GitHub".
+
+14
+00:00:50,733 --> 00:00:54,066
+At this point, you technically already have a GitHub account;
+
+15
+00:00:54,066 --> 00:00:59,100
+however, as part of the sign up process, GitHub is going to ask you a few additional questions,
+
+16
+00:00:59,100 --> 00:01:02,200
+like whether or not you want to sign up for a paid account.
+
+17
+00:01:02,200 --> 00:01:05,433
+However, we don't need to sign up for a paid account for this course.
+
+18
+00:01:05,433 --> 00:01:08,766
+By default, free will be chosen; you only need the other accounts
+
+19
+00:01:08,766 --> 00:01:13,200
+if you plan to be working with closed or private repos within a team.
+
+20
+00:01:13,200 --> 00:01:16,766
+At the bottom of the screen, you'll see "Help me set up an organization next".
+
+21
+00:01:16,766 --> 00:01:19,866
+We'll leave this unchecked; we'll hit organizations later.
+
+22
+00:01:19,866 --> 00:01:23,533
+Then click "Finish sign up". Great, you have finished signing up for GitHub,
+
+23
+00:01:23,533 --> 00:01:26,600
+and this is the introduction page that you get once you sign up.
+
+24
+00:01:26,600 --> 00:01:30,733
+Let me go ahead and x out; once you do that, you'll see that we're on the newsfeed page.
+
+25
+00:01:30,733 --> 00:01:32,933
+And now, just to get back to a consistent level,
+
+26
+00:01:32,933 --> 00:01:36,966
+let's go ahead and sign out of this account. Go over to the profile,
+
+27
+00:01:36,966 --> 00:01:40,933
+once you arrow down to expand the menu, go all the way down to "Sign out".
+
+28
+00:01:40,933 --> 00:01:44,100
+This will return you back to the main homepage for GitHub.
+
+29
+00:01:44,100 --> 00:01:48,100
+Next, we'll click on "Sign in" to make sure that we set up our account properly,
+
+30
+00:01:48,100 --> 00:01:49,933
+and we know how to get into our account.
+
+31
+00:01:49,933 --> 00:01:54,933
+On the sign in page, fill out your username or email address, and then your password.
+
+32
+00:01:54,933 --> 00:01:59,600
+Once you've filled out your username or email address, and password, click "Sign in".
+
+33
+00:01:59,600 --> 00:02:06,666
+Great, if you land on this page, which is your newsfeed page, you have successfully signed in.
+

@@ -1,0 +1,60 @@
+1
+00:00:00,000 --> 00:00:05,166
+Neste vdeo, validaremos nossas alteraes que acabamos de enviar ao GitHub.
+
+2
+00:00:05,166 --> 00:00:09,666
+Acabamos de concluir nosso primeiro push up para o GitHub em nosso repositrio "demo".
+
+3
+00:00:09,666 --> 00:00:12,600
+Ento, vamos ver se nossas alteraes foram feitas no GitHub.
+
+4
+00:00:12,600 --> 00:00:16,266
+Retorne ao nosso navegador e agora poderemos atualizar essa pgina
+
+5
+00:00:16,266 --> 00:00:18,900
+ou apenas clicar no nome do repositrio.
+
+6
+00:00:18,900 --> 00:00:23,600
+timo, se tudo foi feito no GitHub, sua tela deve ser semelhante a isso.
+
+7
+00:00:23,600 --> 00:00:27,233
+Sinta-se  vontade para rolar para cima e para baixo para ver o contedo desta pgina.
+
+8
+00:00:27,233 --> 00:00:31,700
+O GitHub nos inicia listando os arquivos que esto disponveis em
+
+9
+00:00:31,700 --> 00:00:36,800
+nosso repositrio e se houver um README. arquivo md, o GitHub exibir automaticamente
+
+10
+00:00:36,800 --> 00:00:41,733
+o contedo desse arquivo Leia-me usando a sintaxe Markdown, renderizando-o assim.
+
+11
+00:00:41,733 --> 00:00:46,633
+Se eu clicar em commits, voc poder ver o histrico de commits do nosso repositrio.
+
+12
+00:00:46,633 --> 00:00:49,733
+Se eu for liberar, clique em tags, voc pode
+
+13
+00:00:49,733 --> 00:00:53,700
+ver que temos a nossa v1. Tag 0 j no GitHub.
+
+14
+00:00:53,700 --> 00:00:55,733
+timo, agora que verificamos
+
+15
+00:00:55,733 --> 00:01:00,766
+que sincronizamos nosso repositrio no GitHub, podemos seguir em frente.
+

@@ -1,0 +1,132 @@
+1
+00:00:00,000 --> 00:00:04,966
+Bem-vindo, neste vdeo, vou me inscrever para uma conta do GitHub.
+
+2
+00:00:04,966 --> 00:00:10,066
+Abra seu navegador favorito, no meu caso, estou usando o Google Chrome.
+
+3
+00:00:10,066 --> 00:00:12,866
+Se voc no tiver uma conta no GitHub, use
+
+4
+00:00:12,866 --> 00:00:16,433
+o formulrio na pgina inicial do GitHub para configurar sua conta.
+
+5
+00:00:16,433 --> 00:00:20,733
+No meu caso, eu quero selecionar "jasongtaylor" como meu nome de usurio, que
+
+6
+00:00:20,733 --> 00:00:24,833
+o GitHub automaticamente procura para ter certeza de que  nico no sistema.
+
+7
+00:00:24,833 --> 00:00:28,566
+Eu forneo meu endereo de e-mail, que  jason @ git. Treinamento; O GitHub verificar se
+
+8
+00:00:28,566 --> 00:00:32,933
+esse endereo de e-mail no est sendo usado no momento no sistema.
+
+9
+00:00:32,933 --> 00:00:36,700
+E ento, finalmente, forneo a senha que vou usar para minha conta.
+
+10
+00:00:36,700 --> 00:00:40,266
+Abaixo, voc pode ver a recomendao do GitHub para senhas,
+
+11
+00:00:40,266 --> 00:00:44,933
+que  pelo menos uma letra minscula, um numeral e pelo menos sete caracteres.
+
+12
+00:00:44,933 --> 00:00:47,966
+Depois de preencher o formulrio e ter trs marcas de seleo, v
+
+13
+00:00:47,966 --> 00:00:50,733
+em frente e clique no boto verde "Inscreva-se no GitHub".
+
+14
+00:00:50,733 --> 00:00:54,066
+Neste ponto, voc tecnicamente j tem uma conta do GitHub;
+
+15
+00:00:54,066 --> 00:00:59,100
+No entanto, como parte do processo de inscrio, o GitHub far algumas perguntas adicionais, como se
+
+16
+00:00:59,100 --> 00:01:02,200
+voc deseja ou no se inscrever em uma conta paga.
+
+17
+00:01:02,200 --> 00:01:05,433
+No entanto, no precisamos nos inscrever em uma conta paga para este curso.
+
+18
+00:01:05,433 --> 00:01:08,766
+Por padro, o livre ser escolhido; voc s precisa das
+
+19
+00:01:08,766 --> 00:01:13,200
+outras contas se planeja trabalhar com repositrios fechados ou privados dentro de uma equipe.
+
+20
+00:01:13,200 --> 00:01:16,766
+Na parte inferior da tela, voc ver "Ajudar-me a configurar uma organizao".
+
+21
+00:01:16,766 --> 00:01:19,866
+Ns vamos deixar isso desmarcado; ns vamos bater nas organizaes mais tarde.
+
+22
+00:01:19,866 --> 00:01:23,533
+Em seguida, clique em "Concluir inscrio". timo, voc terminou de se inscrever no GitHub,
+
+23
+00:01:23,533 --> 00:01:26,600
+e esta  a pgina de apresentao que voc recebe depois de se inscrever.
+
+24
+00:01:26,600 --> 00:01:30,733
+Deixe-me ir em frente e x fora; Depois de fazer isso, voc ver que estamos na pgina de newsfeed.
+
+25
+00:01:30,733 --> 00:01:32,933
+E agora, s para voltar a um nvel
+
+26
+00:01:32,933 --> 00:01:36,966
+consistente, vamos em frente e sair desta conta. V at o perfil, quando
+
+27
+00:01:36,966 --> 00:01:40,933
+voc descer a seta para expandir o menu, v at "Sair".
+
+28
+00:01:40,933 --> 00:01:44,100
+Isso retornar  pgina principal do GitHub.
+
+29
+00:01:44,100 --> 00:01:48,100
+Em seguida, clicaremos em "Fazer login" para nos certificarmos de que configuramos nossa conta
+
+30
+00:01:48,100 --> 00:01:49,933
+corretamente e saberemos como acessar nossa conta.
+
+31
+00:01:49,933 --> 00:01:54,933
+Na pgina de login, preencha seu nome de usurio ou endereo de e-mail e, em seguida, sua senha.
+
+32
+00:01:54,933 --> 00:01:59,600
+Depois de preencher seu nome de usurio ou endereo de e-mail e senha, clique em "Fazer login".
+
+33
+00:01:59,600 --> 00:02:06,666
+timo, se voc acessar essa pgina, que  sua pgina de feed de notcias, voc fez login com sucesso.
+

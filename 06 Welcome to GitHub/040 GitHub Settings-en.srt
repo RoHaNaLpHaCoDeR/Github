@@ -1,0 +1,180 @@
+1
+00:00:00,000 --> 00:00:05,000
+Welcome, in this video, we're going to continue filling out our personal settings.
+
+2
+00:00:05,000 --> 00:00:09,200
+I'm currently logged into GitHub, and I'm currently on the public profile page,
+
+3
+00:00:09,200 --> 00:00:13,233
+which we just finished filling out. I'm not going to go through every single item here
+
+4
+00:00:13,233 --> 00:00:16,700
+in the personal settings menu, but we're going to hit the highlights.
+
+5
+00:00:16,700 --> 00:00:18,200
+Let's go to account settings.
+
+6
+00:00:18,200 --> 00:00:21,466
+Account settings will allow us to change a password if we choose to.
+
+7
+00:00:21,466 --> 00:00:24,666
+Also, if we don't like our username, we can change it here.
+
+8
+00:00:24,666 --> 00:00:29,100
+And, if for some reason, you just really don't like GitHub, you can delete your account.
+
+9
+00:00:29,100 --> 00:00:32,000
+Under emails, you'll start off with the email address that you
+
+10
+00:00:32,000 --> 00:00:36,000
+provided when you signed up. If you choose to, you can add additional emails.
+
+11
+00:00:36,000 --> 00:00:38,433
+Once you provide an email address, click add.
+
+12
+00:00:38,433 --> 00:00:41,966
+GitHub will send a verification email to that email address.
+
+13
+00:00:41,966 --> 00:00:45,733
+Until it's been verified, you'll have this badge next to your email address,
+
+14
+00:00:45,733 --> 00:00:48,733
+signifying that it's unverified. If, for some reason,
+
+15
+00:00:48,733 --> 00:00:52,733
+you don't receive the email for verification, you can click the "Resend" button,
+
+16
+00:00:52,733 --> 00:00:57,433
+or if you don't want your email address linked with GitHub, you can click the delete button.
+
+17
+00:00:57,433 --> 00:00:59,733
+Alright, let's move on to notification center.
+
+18
+00:00:59,733 --> 00:01:05,166
+Notification center is how we control what notifications we receive, and how we receive them.
+
+19
+00:01:05,166 --> 00:01:07,766
+By default, almost everything is checked for you.
+
+20
+00:01:07,766 --> 00:01:11,200
+So, you can go in and say that I don't want something in a certain way.
+
+21
+00:01:11,200 --> 00:01:15,266
+For example, you want notifications when you participate in a conversation
+
+22
+00:01:15,266 --> 00:01:17,866
+or someone brings you through an "@mention".
+
+23
+00:01:17,866 --> 00:01:22,200
+You could decide that you don't want an email for that, but you want to leave the web setting,
+
+24
+00:01:22,200 --> 00:01:25,833
+which means when you log in, it'll show up under notifications.
+
+25
+00:01:25,833 --> 00:01:28,566
+Under "Watching", you may decide you don't want either one,
+
+26
+00:01:28,566 --> 00:01:30,866
+just un-check the options you don't want.
+
+27
+00:01:30,866 --> 00:01:33,766
+And then, if you have multiple email addresses, you can choose
+
+28
+00:01:33,766 --> 00:01:36,700
+which email addresses you want for your notification.
+
+29
+00:01:36,700 --> 00:01:41,033
+On this page, all the updates are done automatically, so there's no need to save anything.
+
+30
+00:01:41,033 --> 00:01:43,033
+Moving along, let's go to billing.
+
+31
+00:01:43,033 --> 00:01:46,900
+Since we're on the free account, there's no need to fill out any billing information.
+
+32
+00:01:46,900 --> 00:01:49,966
+If, in the future, you choose to move up to a paid account,
+
+33
+00:01:49,966 --> 00:01:52,833
+this is the page that you would fill in your payment information
+
+34
+00:01:52,833 --> 00:01:55,966
+as well as provide any coupon codes if you have them.
+
+35
+00:01:55,966 --> 00:01:58,933
+We're going to cover SSH keys later, and on security,
+
+36
+00:01:58,933 --> 00:02:01,766
+we can enable two-factor authentication.
+
+37
+00:02:01,766 --> 00:02:04,466
+Two-factor authentication is a little bit more advanced,
+
+38
+00:02:04,466 --> 00:02:09,366
+and I recommend you read the information on two-factor authentication before you enable it.
+
+39
+00:02:09,366 --> 00:02:13,166
+Also, on the security page, it shows the sessions that we have,
+
+40
+00:02:13,166 --> 00:02:17,833
+and it shows a history of the various actions we've taken, especially with the profile.
+
+41
+00:02:17,833 --> 00:02:20,066
+The rest of these items are a little bit more advanced,
+
+42
+00:02:20,066 --> 00:02:22,166
+and we will get to them in later videos.
+
+43
+00:02:22,166 --> 00:02:24,500
+For now, we're done with our personal settings,
+
+44
+00:02:24,500 --> 00:02:29,033
+so let's click on the octocat icon to return back to our newsfeed page,
+
+45
+00:02:29,033 --> 00:02:34,633
+which is the page we're normally greeted with when we first log in to GitHub.
+

@@ -1,0 +1,152 @@
+1
+00:00:00,000 --> 00:00:04,100
+Welcome, in this video, we're going to push up all our changes that we have
+
+2
+00:00:04,100 --> 00:00:08,566
+on our demo Git repository up to our newly created GitHub repository.
+
+3
+00:00:08,566 --> 00:00:14,066
+I'm currently in my "demo" Git repository on a clean working directory, on the master branch.
+
+4
+00:00:14,066 --> 00:00:17,566
+In a previous video, we associated the local repository
+
+5
+00:00:17,566 --> 00:00:20,766
+with a remote repository we created on GitHub.
+
+6
+00:00:20,766 --> 00:00:23,700
+Now, it's time to push up all our changes to GitHub.
+
+7
+00:00:23,700 --> 00:00:28,300
+In order to synchronize our changes between the local Git repository
+
+8
+00:00:28,300 --> 00:00:32,266
+and the remote Git repository, we're going to use Git's push command.
+
+9
+00:00:32,266 --> 00:00:34,800
+Now, I've typed out the command that we're going to use,
+
+10
+00:00:34,800 --> 00:00:38,933
+so let me explain it before we press enter. We start off with "git push",
+
+11
+00:00:38,933 --> 00:00:44,100
+followed by the "-u" option, which is going to set up a tracking branch relationship
+
+12
+00:00:44,100 --> 00:00:47,300
+between the master branch on the local repository,
+
+13
+00:00:47,300 --> 00:00:52,500
+and the master branch on the remote repository. And, we'll see this after we press enter.
+
+14
+00:00:52,500 --> 00:00:56,900
+After the "-u" parameter, we have the name of the remote repository
+
+15
+00:00:56,900 --> 00:01:00,200
+that we're going to use in order to push up our changes.
+
+16
+00:01:00,200 --> 00:01:05,633
+Since the only repository we have is named "origin", that's the value we're going to use.
+
+17
+00:01:05,633 --> 00:01:10,166
+If you named your remote repository something else, then you would use that name instead.
+
+18
+00:01:10,166 --> 00:01:13,533
+After the name of our remote repository, we need to provide
+
+19
+00:01:13,533 --> 00:01:15,900
+the name of the branch we're going to push up;
+
+20
+00:01:15,900 --> 00:01:19,966
+and, in this case, the branch we're going to use is named "master".
+
+21
+00:01:19,966 --> 00:01:24,500
+After that, we're going to use the "--tags" flag to send all the tags
+
+22
+00:01:24,500 --> 00:01:28,333
+that we have currently in our Git repository up to GitHub.
+
+23
+00:01:28,333 --> 00:01:30,766
+Double check that line, and then press enter.
+
+24
+00:01:30,766 --> 00:01:34,233
+You will be prompted for your username and then password for GitHub;
+
+25
+00:01:34,233 --> 00:01:36,866
+provide those settings and press enter.
+
+26
+00:01:36,866 --> 00:01:40,700
+If everything is successful, you should have a screen that looks like this.
+
+27
+00:01:40,700 --> 00:01:44,000
+The first few lines are some housekeeping that Git does
+
+28
+00:01:44,000 --> 00:01:48,133
+in order to synchronize objects between local and remote repositories.
+
+29
+00:01:48,133 --> 00:01:50,466
+What's important are the lines towards the bottom,
+
+30
+00:01:50,466 --> 00:01:54,566
+where we start off with "to", and then the URL to our GitHub repository.
+
+31
+00:01:54,566 --> 00:01:58,300
+Underneath that, we have our new branch, which is "master->master".
+
+32
+00:01:58,300 --> 00:02:02,333
+Which technically means that our remote repository, that is on GitHub,
+
+33
+00:02:02,333 --> 00:02:05,300
+started out without any type of a branch.
+
+34
+00:02:05,300 --> 00:02:09,033
+So, when we pushed, we created that first branch called master.
+
+35
+00:02:09,033 --> 00:02:13,366
+After that, we pushed up our one and only tag to GitHub as well.
+
+36
+00:02:13,366 --> 00:02:18,600
+Finally, at the end, Git tells us that we set up a tracking branch relationship between
+
+37
+00:02:18,600 --> 00:02:24,266
+the master branch on the local repository with the master branch on the GitHub repository.
+
+38
+00:02:24,266 --> 00:02:29,933
+When we do pushes in the future, the "-u" will no longer be required.
+
